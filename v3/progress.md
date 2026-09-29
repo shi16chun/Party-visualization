@@ -5,7 +5,7 @@
 | 卡号 | 完成日期 | 输出文件 | 未解决问题 |
 | --- | --- | --- | --- |
 | P0 准备 | 2026-09-29 | v3/REVISION_PLAN.md；v3/progress.md；v3/manuscript_v1_submitted.md；v3/manuscript_v1_media/；v3/v1_fix_checklist.md | 见下方P0条目 |
-| A0 | 2026-09-29 | v3/data/accounts.csv；v3/data/audit/a0_probe.csv；v3/data/audit/a0_evidence.md；v3/data/raw/accounts/；v3/scripts/a0_probe_accounts.py；v3/scripts/a0_build_accounts.py | 见下方A0条目 |
+| A0 | 2026-09-29（同日按决策1—4修订） | v3/data/accounts.csv；v3/decisions.md；v3/data/audit/a0_probe.csv；v3/data/audit/a0_evidence.md；v3/data/raw/accounts/；v3/scripts/a0_probe_accounts.py；v3/scripts/a0_build_accounts.py | 见下方A0条目 |
 | A1 |  |  |  |
 
 ## P0 准备（2026-09-29）
@@ -44,3 +44,11 @@
   - Truth Social四个账号的ID与创建日期未取得（Cloudflare拦截）。
   - YouTube在本环境被限流（429与机器人验证），7条视频级探测失败，已记入a0_probe.csv。
   - 待你决定：a0_evidence.md第五节四项。
+
+## A0 修订（2026-09-29，按决策1—4）
+
+- 作者决定纳入Kamala HQ的YouTube频道，候选人一侧不再区分个人与团队；授权Claude决定的两项：@TrumpWarRoom纳入候选人阵营，Kamala HQ的Truth Social账号纳入A4。决定与理由见 `v3/decisions.md`。
+- `v3/data/accounts.csv` 改为7个账号来源×4个平台共28行；role列改为党组织、候选人阵营两类；新增 in_scope 列，纳入22个账号（党组织6个，候选人阵营16个）。
+- `v3/scripts/a0_probe_accounts.py` 增加 --keys 选项，补测Trump War Room的3个账号与2条帖子，结果并入 a0_probe.csv。
+- 外审意见原文存为 `v3/review_comments.md`，供F3使用。
+- 未解决问题：Trump War Room的YouTube频道窗口期发布待A1核实；其余同A0条目。

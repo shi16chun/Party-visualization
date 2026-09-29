@@ -1,0 +1,62 @@
+{
+ "url": "https://www.tiktok.com/@trumpwarroom",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "6909827012052108294",
+  "shortId": "",
+  "uniqueId": "trumpwarroom",
+  "nickname": "Trump War Room",
+  "avatarLarger": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/b47588c6a24f4af2e56681bd1cd59c89~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=799fb658&x-expires=1790845200&x-signature=fXqUij%2BOAFDhMF2W8rZPMdn7UgE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+  "avatarMedium": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/b47588c6a24f4af2e56681bd1cd59c89~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=d30493a2&x-expires=1790845200&x-signature=tJVnkgPEzMLFAe0h%2BT0C22VmPAI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/b47588c6a24f4af2e56681bd1cd59c89~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=ea67afdc&x-expires=1790845200&x-signature=gBFgNjT%2BqCKA8LKNwuOR4D%2FOrOc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
+  "signature": "",
+  "createTime": 1609683007,
+  "verified": false,
+  "secUid": "MS4wLjABAAAAMSlg94Th5Z_HRHYIoAVIrkzWQkbRFmzzNOsZi7Bza-Jwna8GoOoAHW-5EfG5sYiu",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 0,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 1,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1609683073,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 0,
+  "UserStoryStatus": 0,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 49,
+  "followingCount": 0,
+  "heart": 0,
+  "heartCount": 0,
+  "videoCount": 0,
+  "diggCount": 0,
+  "friendCount": 0
+ },
+ "retrieved_at": "2026-09-29T09:37:22+00:00"
+}

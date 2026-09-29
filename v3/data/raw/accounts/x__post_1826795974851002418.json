@@ -1,0 +1,103 @@
+{
+ "url": "https://api.fxtwitter.com/status/1826795974851002418",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+   "url": "https://x.com/TrumpWarRoom/status/1826795974851002418",
+   "id": "1826795974851002418",
+   "text": "Democrats have not mentioned the assassination attempt against President Trump ONCE at their convention.\n\nNot once.",
+   "raw_text": {
+    "text": "Democrats have not mentioned the assassination attempt against President Trump ONCE at their convention.\n\nNot once. https://t.co/8XNiL1Dv25",
+    "display_text_range": [
+     0,
+     115
+    ],
+    "facets": [
+     {
+      "type": "media",
+      "indices": [
+       116,
+       139
+      ],
+      "id": "1826795807665786880",
+      "display": "pic.x.com/8XNiL1Dv25",
+      "original": "https://t.co/8XNiL1Dv25",
+      "replacement": "https://x.com/TrumpWarRoom/status/1826795974851002418/photo/1"
+     }
+    ]
+   },
+   "author": {
+    "screen_name": "TrumpWarRoom",
+    "url": "https://x.com/TrumpWarRoom",
+    "id": "1108472017144201216",
+    "followers": 2586862,
+    "following": 325,
+    "likes": 4456,
+    "media_count": 25684,
+    "name": "Trump War Room",
+    "description": "The official War Room account of President Donald J. Trump's political operation. This account punches back 47x harder.",
+    "raw_description": {
+     "text": "The official War Room account of President Donald J. Trump's political operation. This account punches back 47x harder.",
+     "facets": []
+    },
+    "location": "MAGA Country",
+    "banner_url": "https://pbs.twimg.com/profile_banners/1108472017144201216/1721750377",
+    "avatar_url": "https://pbs.twimg.com/profile_images/1608955832288288768/zZ-B_TjY_200x200.jpg",
+    "joined": "Wed Mar 20 20:54:58 +0000 2019",
+    "protected": false,
+    "website": {
+     "url": "https://www.donaldjtrump.com/",
+     "display_url": "donaldjtrump.com"
+    },
+    "verification": {
+     "verified": true,
+     "verified_at": null,
+     "type": "organization"
+    },
+    "avatar_color": null
+   },
+   "replies": 2255,
+   "retweets": 785,
+   "likes": 3549,
+   "bookmarks": 78,
+   "quotes": 496,
+   "created_at": "Fri Aug 23 01:37:55 +0000 2024",
+   "created_timestamp": 1724377075,
+   "possibly_sensitive": false,
+   "views": 4237917,
+   "is_note_tweet": false,
+   "community_note": null,
+   "lang": "en",
+   "replying_to": null,
+   "replying_to_status": null,
+   "media": {
+    "all": [
+     {
+      "type": "photo",
+      "id": "1826795807665786880",
+      "url": "https://pbs.twimg.com/media/GVoVG7kXkAAZpkf.jpg?name=orig",
+      "width": 1920,
+      "height": 1280
+     }
+    ],
+    "photos": [
+     {
+      "type": "photo",
+      "id": "1826795807665786880",
+      "url": "https://pbs.twimg.com/media/GVoVG7kXkAAZpkf.jpg?name=orig",
+      "width": 1920,
+      "height": 1280
+     }
+    ]
+   },
+   "source": "Twitter Web App",
+   "twitter_card": "summary_large_image",
+   "color": null,
+   "provider": "twitter",
+   "reposted_by": null
+  }
+ },
+ "retrieved_at": "2026-09-29T09:37:24+00:00"
+}

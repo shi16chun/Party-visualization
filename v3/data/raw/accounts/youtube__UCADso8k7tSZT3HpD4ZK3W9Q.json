@@ -1,0 +1,15 @@
+{
+ "url": "https://www.youtube.com/channel/UCADso8k7tSZT3HpD4ZK3W9Q/about",
+ "http_status": 200,
+ "extracted": {
+  "joined": "Jun 17, 2019",
+  "subscribers_text": "65.6K subscribers",
+  "video_count_text": "6,431 videos",
+  "canonical_url": "http://www.youtube.com/@trumpwarroom",
+  "channel_id": "UCADso8k7tSZT3HpD4ZK3W9Q",
+  "title": "Trump War Room",
+  "verified_badge": true
+ },
+ "raw_excerpt": null,
+ "retrieved_at": "2026-09-29T09:37:19+00:00"
+}

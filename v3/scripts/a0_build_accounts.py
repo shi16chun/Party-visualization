@@ -3,7 +3,7 @@
 
 输入：v3/data/audit/a0_probe.csv（a0_probe_accounts.py 的输出）
       本脚本内的 DECISIONS（每个节点×平台一条核验判断，证据见 v3/data/audit/a0_evidence.md）
-输出：v3/data/accounts.csv（6个节点×4个平台=24行，不留空）
+输出：v3/data/accounts.csv（7个账号来源×4个平台=28行，不留空）
 参数：无。数字字段（平台ID、创建日期、认证、粉丝数、现名）一律取自探测表，不手填；
       探测表中取不到的字段写明原因。
 """
@@ -17,13 +17,15 @@ ROOT = Path(__file__).resolve().parents[2]
 PROBE_CSV = ROOT / "v3" / "data" / "audit" / "a0_probe.csv"
 OUT_CSV = ROOT / "v3" / "data" / "accounts.csv"
 
+# 角色只分党组织与候选人阵营两类，不再区分候选人个人账号与竞选团队账号（见 v3/decisions.md 决策2）
 NODES = {
     "DNC": ("民主党", "党组织"),
-    "Kamala HQ": ("民主党", "竞选团队"),
-    "Kamala Harris": ("民主党", "候选人个人"),
+    "Kamala HQ": ("民主党", "候选人阵营"),
+    "Kamala Harris": ("民主党", "候选人阵营"),
     "RNC": ("共和党", "党组织"),
-    "Team Trump": ("共和党", "竞选团队"),
-    "Donald J. Trump": ("共和党", "候选人个人"),
+    "Team Trump": ("共和党", "候选人阵营"),
+    "Trump War Room": ("共和党", "候选人阵营"),
+    "Donald J. Trump": ("共和党", "候选人阵营"),
 }
 PLATFORMS = ["youtube", "tiktok", "x", "truthsocial"]
 
@@ -31,6 +33,7 @@ TS_BLOCKED = "未取得（Truth Social接口被Cloudflare拦截）"
 NA = "无"
 
 # status 取值：存在 / 存在但窗口期无发布 / 窗口期内无可核实的官方账号 / 未发现官方账号
+# in_scope 由 status 推出：存在→纳入，其余→不纳入并注明原因
 # active_in_window 取值：是 / 否 / 未核实
 # probe：对应 a0_probe.csv 中账号探测行的 probe_key；None 表示无探测行，字段按 manual 填写
 DECISIONS = [
@@ -81,7 +84,7 @@ DECISIONS = [
          handle_2024="待核（现名@Headquarters）", active="是",
          window_evidence="视频 GsXS8WudinM（2024-10-26）、w_yGrsxNprA（2024-09-24）；频道内有2024年1月起的Biden时期内容",
          evidence_url="https://www.youtube.com/channel/UCnniIiQ9zAOjTcnct0xccig",
-         notes="据内容判断为Biden-Harris HQ频道改名而来；页面未见认证标记、订阅1千余，是否官方频道需你确认；视频日期取自限流前的yt-dlp输出"),
+         notes="据内容判断为Biden-Harris HQ频道改名而来；页面未见认证标记、订阅1千余；按决策1纳入；视频日期取自限流前的yt-dlp输出"),
     dict(node="Kamala HQ", platform="tiktok", status="存在", probe="headquarters",
          handle_2024="@kamalahq（原@bidenhq）", active="是",
          window_evidence="视频 7400033789335948575（2024-08-06）、7431356795391692074（2024-10-30）现归属该账号",
@@ -96,7 +99,7 @@ DECISIONS = [
          handle_2024="@KamalaHQ（原@BidenHQ，2023年10月开设）", active="是",
          window_evidence="Truth Social官方账号2024-07-23发帖欢迎@KamalaHQ；Newsweek报道该账号选举期间每隔几天发帖",
          evidence_url="https://www.newsweek.com/kamala-harris-campaign-account-truth-social-1969556 ; https://www.washingtonexaminer.com/news/campaigns/presidential/3096248/truth-social-welcomes-harris-campaign/",
-         notes="大纲原写无，核验后更正；现名与ID未取得（接口被拦截）",
+         notes="大纲原写无，核验后更正；按决策4纳入A4；现名与ID未取得（接口被拦截）",
          manual=dict(handle="待核（2024年为KamalaHQ）", platform_id=TS_BLOCKED, created="2023-10（据Forbes报道）", verified=TS_BLOCKED, followers=TS_BLOCKED)),
     # ---------------- Kamala Harris ----------------
     dict(node="Kamala Harris", platform="youtube", status="存在", probe="UC0XBsJpPhOLg0k4x9ZwrWzw",
@@ -129,18 +132,38 @@ DECISIONS = [
     dict(node="Team Trump", platform="x", status="存在", probe="TeamTrump",
          handle_2024="@TeamTrump", active="是",
          window_evidence="帖子 1835314099757916355（2024-09-15）现归属该账号",
-         evidence_url="https://x.com/TeamTrump", notes="竞选快速回应账号@TrumpWarRoom另存，是否纳入待你决定"),
+         evidence_url="https://x.com/TeamTrump", notes="竞选War Room账号@TrumpWarRoom按决策3另列为候选人阵营账号"),
     dict(node="Team Trump", platform="truthsocial", status="存在", probe=None,
          handle_2024="@TeamTrump（依检索结果）", active="未核实", window_evidence="待A4",
          evidence_url="https://truthsocial.com/@TeamTrump",
          notes="检索结果显示主页存在；接口被拦截",
          manual=dict(handle="TeamTrump", platform_id=TS_BLOCKED, created=TS_BLOCKED, verified=TS_BLOCKED, followers=TS_BLOCKED)),
+    # ---------------- Trump War Room（决策3新增） ----------------
+    dict(node="Trump War Room", platform="youtube", status="存在", probe="UCADso8k7tSZT3HpD4ZK3W9Q",
+         handle_2024="@trumpwarroom（未见改名证据）", active="未核实",
+         window_evidence="频道共6431条视频，窗口期发布待A1核实（本环境YouTube限流）",
+         evidence_url="https://www.youtube.com/channel/UCADso8k7tSZT3HpD4ZK3W9Q",
+         notes="与X上@TrumpWarRoom同名，已认证"),
+    dict(node="Trump War Room", platform="tiktok", status="未发现官方账号", probe="trumpwarroom",
+         handle_2024=NA, active="否", window_evidence=NA,
+         evidence_url="https://www.tiktok.com/@trumpwarroom",
+         notes="@trumpwarroom未认证、0条视频、49个粉丝，不是官方账号"),
+    dict(node="Trump War Room", platform="x", status="存在", probe="TrumpWarRoom",
+         handle_2024="@TrumpWarRoom", active="是",
+         window_evidence="帖子 1826795974851002418（2024-08-23）、1837095668726333685（2024-09-20）现归属该账号",
+         evidence_url="https://x.com/TrumpWarRoom ; https://www.ms.now/the-reidout/reidout-blog/trump-war-room-tweet-racist-rcna166639",
+         notes="MSNBC 2024-08-15报道称其 run by the campaign；现简介为 official War Room account of President Donald J. Trump's political operation"),
+    dict(node="Trump War Room", platform="truthsocial", status="未发现官方账号", probe=None,
+         handle_2024=NA, active="否", window_evidence=NA,
+         evidence_url="检索未见Trump War Room的Truth Social账号，见a0_evidence.md",
+         notes="接口被拦截，无法直接查询；依检索结果判断",
+         manual=dict(handle=NA, platform_id=NA, created=NA, verified=NA, followers=NA)),
     # ---------------- Donald J. Trump ----------------
     dict(node="Donald J. Trump", platform="youtube", status="存在", probe="UCAql2DyGU2un1Ei2nMYsqOA",
          handle_2024="待核（现名@DonaldJTrumpforPresident）", active="是",
          window_evidence="旧稿数据窗口期Shorts 33条，如 -U3fvlYkQa4（2024-08-20）",
          evidence_url="https://www.youtube.com/channel/UCAql2DyGU2un1Ei2nMYsqOA",
-         notes="频道名Donald J Trump，handle显示为竞选频道；个人节点与竞选团队节点在YouTube上合一，需你决定归属"),
+         notes="频道名Donald J Trump，handle显示为竞选频道；按决策2归入候选人阵营，不再区分个人与团队"),
     dict(node="Donald J. Trump", platform="tiktok", status="存在", probe="realdonaldtrump",
          handle_2024="@realdonaldtrump", active="是",
          window_evidence="视频 7403175874607975710（2024-08-15）、7427237451954965791（2024-10-18）现归属该账号",
@@ -158,7 +181,7 @@ DECISIONS = [
 ]
 
 FIELDS = ["node", "camp", "platform", "handle", "platform_id", "created", "verified", "evidence_url",
-          "checked_on", "role", "status", "handle_2024", "active_in_window", "window_evidence",
+          "checked_on", "role", "status", "in_scope", "handle_2024", "active_in_window", "window_evidence",
           "followers_now", "display_name_now", "notes"]
 
 
@@ -197,7 +220,9 @@ def main() -> None:
             "node": d["node"], "camp": camp, "platform": d["platform"], "handle": row["handle"],
             "platform_id": row["platform_id"], "created": row["created"], "verified": row["verified"],
             "evidence_url": d["evidence_url"], "checked_on": row["checked_on"], "role": role,
-            "status": d["status"], "handle_2024": d["handle_2024"], "active_in_window": d["active"],
+            "status": d["status"],
+            "in_scope": "纳入" if d["status"] == "存在" else f"不纳入（{d['status']}）",
+            "handle_2024": d["handle_2024"], "active_in_window": d["active"],
             "window_evidence": d["window_evidence"], "followers_now": row["followers"],
             "display_name_now": row["display_name"], "notes": d["notes"] or NA,
         })

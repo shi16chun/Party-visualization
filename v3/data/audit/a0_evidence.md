@@ -24,6 +24,7 @@
 | Team Trump | YouTube | 待核 | @teamtrump频道存在，但最新视频为2016-11-06，窗口期无发布 | 视频 vST61W4bGm8（2016-11-06），频道共23条视频，均为2016年竞选内容 |
 | Team Trump | Truth Social | 待核 | 存在@TeamTrump主页 | 检索结果 https://truthsocial.com/@TeamTrump |
 | Donald J. Trump | YouTube | Donald J Trump | 频道名Donald J Trump，handle为@DonaldJTrumpforPresident | 频道 /about 页 |
+| Trump War Room | 全部 | 大纲未列 | 按决策3新增：X @TrumpWarRoom（ID 1108472017144201216）、YouTube @trumpwarroom（UCADso8k7tSZT3HpD4ZK3W9Q，6431条视频）；TikTok @trumpwarroom为非官方账号；Truth Social未发现 | [MSNBC 2024-08-15](https://www.ms.now/the-reidout/reidout-blog/trump-war-room-tweet-racist-rcna166639)：the “Trump War Room” account on X, which is run by the campaign |
 
 ## 三、窗口期发布证据
 
@@ -34,6 +35,7 @@
 | Kamala HQ | GsXS8WudinM（2024-10-26）、w_yGrsxNprA（2024-09-24） | 7400033789335948575（2024-08-06）、7431356795391692074（2024-10-30） | 1815212766912803099（2024-07-22）、1834237601659703754（2024-09-12） | 据报道选举期间每隔几天发帖，待A4 |
 | Kamala Harris | 旧数据Shorts 156条（f6hcPwHIGc0，2024-07-23） | 7395695233276595487（2024-07-25）、7426486234593217838（2024-10-16） | 1851815659144872236（2024-10-31） | 未发现官方账号 |
 | Team Trump | 无（最新视频2016-11-06） | 7433202628072394030（2024-11-03） | 1835314099757916355（2024-09-15） | 未核实，待A4 |
+| Trump War Room | 待A1 | 无官方账号 | 1826795974851002418（2024-08-23）、1837095668726333685（2024-09-20） | 未发现账号 |
 | Donald J. Trump | 旧数据Shorts 33条（-U3fvlYkQa4，2024-08-20） | 7403175874607975710（2024-08-15）、7427237451954965791（2024-10-18） | 1823035759655264697（2024-08-12，此前约一年未在X发帖，见[Variety](https://variety.com/2024/digital/news/donald-trump-returns-x-twitter-1236104163/)） | 个人发布主阵地，待A4 |
 
 帖子ID的检索来源：X与TikTok帖子来自搜索引擎对 x.com、tiktok.com 帖子页的收录结果；RNC的两条X帖子来自 https://gop.com/commentary/palm-beach-playbook-may-20-2024/ 页面嵌入。
@@ -48,9 +50,13 @@
 | Truth Social | 全部请求被Cloudflare拦截（含浏览器指纹伪装） | A4需在你本地运行，或使用第三方存档 |
 | 互联网档案馆 | web.archive.org 被平台出口策略拦截 | A5、A6在你本地运行 |
 
-## 五、需要你决定的事项
+## 五、决策结果
 
-1. **Kamala HQ 的 YouTube 频道**：@Headquarters频道内容与改名链吻合，但页面未见认证标记、订阅只有1460。是否作为Kamala HQ的YouTube节点纳入？
-2. **特朗普 YouTube 频道归属**：窗口期内特朗普一侧只有一个活跃的YouTube频道（Donald J Trump，handle为@DonaldJTrumpforPresident），Team Trump频道窗口期无发布。这个频道记为候选人个人节点还是竞选团队节点？
-3. **共和党一侧的快速回应账号**：Kamala HQ自称竞选的快速回应账号（2024-07-22 UTC帖子 1815212766912803099：the official rapid response page of Vice President Harris’ presidential campaign）。特朗普一侧X上另有@TrumpWarRoom（ID 1108472017144201216，2019年注册，现简介为 The official War Room account of President Donald J. Trump's political operation），@TeamTrump则是竞选官方号。竞选团队节点是否加入@TrumpWarRoom，或改用它？@TrumpWarRoom在2024年的简介与运营方未核实。
-4. **Kamala HQ 的 Truth Social 账号**：大纲原写无，核验后存在。A4是否纳入？
+原列四个待决事项已于2026-09-29决定，详见 `v3/decisions.md`：
+
+1. Kamala HQ的YouTube频道@Headquarters纳入（决策1，作者）。
+2. 候选人一侧不再区分个人账号与竞选团队账号，角色只分党组织与候选人阵营（决策2，作者）。
+3. @TrumpWarRoom作为候选人阵营账号纳入，与@TeamTrump并存（决策3，作者授权Claude决定）。
+4. Kamala HQ的Truth Social账号纳入A4（决策4，作者授权Claude决定）。
+
+另：第三方存档 https://www.trumpstruth.org 收录特朗普个人Truth Social帖子，可作A4的备选来源与交叉核对，覆盖范围与完整性待A4评估。

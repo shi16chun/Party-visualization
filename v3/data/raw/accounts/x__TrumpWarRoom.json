@@ -1,0 +1,39 @@
+{
+ "url": "https://api.fxtwitter.com/TrumpWarRoom",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "TrumpWarRoom",
+   "url": "https://x.com/TrumpWarRoom",
+   "id": "1108472017144201216",
+   "followers": 2586862,
+   "following": 325,
+   "likes": 4456,
+   "media_count": 25684,
+   "tweets": 65875,
+   "name": "Trump War Room",
+   "description": "The official War Room account of President Donald J. Trump's political operation. This account punches back 47x harder.",
+   "raw_description": {
+    "text": "The official War Room account of President Donald J. Trump's political operation. This account punches back 47x harder.",
+    "facets": []
+   },
+   "location": "MAGA Country",
+   "banner_url": "https://pbs.twimg.com/profile_banners/1108472017144201216/1721750377",
+   "avatar_url": "https://pbs.twimg.com/profile_images/1608955832288288768/zZ-B_TjY_normal.jpg",
+   "joined": "Wed Mar 20 20:54:58 +0000 2019",
+   "protected": false,
+   "website": {
+    "url": "https://www.donaldjtrump.com/",
+    "display_url": "donaldjtrump.com"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "organization"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:37:17+00:00"
+}

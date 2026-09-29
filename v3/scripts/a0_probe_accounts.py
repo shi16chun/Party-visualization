@@ -6,8 +6,9 @@
 输出：
   v3/data/raw/accounts/<platform>__<key>.json  每次请求的原始返回（含抓取时间与HTTP状态）
   v3/data/audit/a0_probe.csv                    每个探测对象一行的解析结果
-参数：--platforms youtube,tiktok,x,truthsocial（可选）只重跑所列平台，a0_probe.csv 中其他平台的行保留不动；
-      不加参数时全部重跑并覆盖。请求之间固定间隔，不含随机过程。
+参数：--platforms youtube,tiktok,x,truthsocial（可选）只重跑所列平台；
+      --keys k1,k2（可选）只重跑所列 probe_key（账号handle、频道ID或帖子ID）；
+      有筛选时，a0_probe.csv 中未重跑的行保留不动；不加参数时全部重跑并覆盖。请求之间固定间隔，不含随机过程。
 
 说明：
   - YouTube：频道 /about 页面中的 ytInitialData（创建日期、订阅数、认证标记、handle）。
@@ -69,6 +70,9 @@ CANDIDATES = [
     ("Kamala Harris", "x", "KamalaHarris", "handle"),
     ("Team Trump", "x", "TeamTrump", "handle"),
     ("Donald J. Trump", "x", "realDonaldTrump", "handle"),
+    ("Trump War Room", "x", "TrumpWarRoom", "handle"),
+    ("Trump War Room", "youtube", "UCADso8k7tSZT3HpD4ZK3W9Q", "channel_id"),
+    ("Trump War Room", "tiktok", "trumpwarroom", "handle"),
     # Truth Social
     ("Donald J. Trump", "truthsocial", "realDonaldTrump", "handle"),
     ("Team Trump", "truthsocial", "TeamTrump", "handle"),
@@ -87,6 +91,8 @@ POST_PROBES = [
     ("Team Trump", "x", "1835314099757916355"),
     ("Kamala Harris", "x", "1851815659144872236"),
     ("Donald J. Trump", "x", "1823035759655264697"),
+    ("Trump War Room", "x", "1826795974851002418"),
+    ("Trump War Room", "x", "1837095668726333685"),
     # TikTok（视频ID）
     ("DNC", "tiktok", "7406055642676464939"),
     ("Kamala HQ", "tiktok", "7400033789335948575"),
@@ -354,10 +360,13 @@ def main() -> None:
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--platforms", default=",".join(PROBERS))
-    only = set(parser.parse_args().platforms.split(","))
+    parser.add_argument("--keys", default="")
+    args = parser.parse_args()
+    only = set(args.platforms.split(","))
+    keys = set(k for k in args.keys.split(",") if k)
     rows = []
     for node, platform, key, kind in CANDIDATES:
-        if platform not in only:
+        if platform not in only or (keys and key not in keys):
             continue
         out, row = PROBERS[platform](key, kind)
         out["retrieved_at"] = now_iso()
@@ -368,7 +377,7 @@ def main() -> None:
         print(platform, key, out["http_status"], row.get("handle_now"), row.get("platform_id"))
         time.sleep(PAUSE_SECONDS)
     for node, platform, post_id in POST_PROBES:
-        if platform not in only:
+        if platform not in only or (keys and post_id not in keys):
             continue
         out, row = POST_PROBERS[platform](post_id)
         out["retrieved_at"] = now_iso()
@@ -378,9 +387,10 @@ def main() -> None:
                      "retrieved_at": out["retrieved_at"]})
         print(platform, "post", post_id, out["http_status"], row.get("handle_now"), row.get("platform_id"))
         time.sleep(PAUSE_SECONDS)
-    if only != set(PROBERS) and AUDIT_CSV.exists():
+    if (only != set(PROBERS) or keys) and AUDIT_CSV.exists():
+        redone = {(r["platform"], r["probe_key"]) for r in rows}
         with AUDIT_CSV.open(encoding="utf-8") as fh:
-            kept = [r for r in csv.DictReader(fh) if r["platform"] not in only]
+            kept = [r for r in csv.DictReader(fh) if (r["platform"], r["probe_key"]) not in redone]
         rows = kept + rows
     AUDIT_CSV.parent.mkdir(parents=True, exist_ok=True)
     with AUDIT_CSV.open("w", newline="", encoding="utf-8") as fh:
