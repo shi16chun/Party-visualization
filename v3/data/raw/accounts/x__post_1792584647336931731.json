@@ -1,0 +1,225 @@
+{
+ "url": "https://api.fxtwitter.com/status/1792584647336931731",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+   "url": "https://x.com/Republicans/status/1792584647336931731",
+   "id": "1792584647336931731",
+   "text": "Biden has no idea when he was vice president.",
+   "raw_text": {
+    "text": "Biden has no idea when he was vice president. https://t.co/UVSbMN0sIy",
+    "display_text_range": [
+     0,
+     45
+    ],
+    "facets": [
+     {
+      "type": "media",
+      "indices": [
+       46,
+       69
+      ],
+      "id": "1792584582602080256",
+      "display": "pic.x.com/UVSbMN0sIy",
+      "original": "https://t.co/UVSbMN0sIy",
+      "replacement": "https://x.com/GOP/status/1792584647336931731/video/1"
+     }
+    ]
+   },
+   "author": {
+    "screen_name": "Republicans",
+    "url": "https://x.com/Republicans",
+    "id": "11134252",
+    "followers": 3460807,
+    "following": 996,
+    "likes": 2400,
+    "media_count": 21086,
+    "name": "Republicans",
+    "description": "Text TRUMP to 80810 to help us Make America Great Again! 🇺🇸",
+    "raw_description": {
+     "text": "Text TRUMP to 80810 to help us Make America Great Again! 🇺🇸",
+     "facets": []
+    },
+    "location": "",
+    "banner_url": "https://pbs.twimg.com/profile_banners/11134252/1789419052",
+    "avatar_url": "https://pbs.twimg.com/profile_images/2046270432932716544/E8Cv1CG9_200x200.jpg",
+    "joined": "Thu Dec 13 17:15:41 +0000 2007",
+    "protected": false,
+    "website": {
+     "url": "http://GOP.com",
+     "display_url": "GOP.com"
+    },
+    "verification": {
+     "verified": true,
+     "verified_at": null,
+     "type": "individual"
+    },
+    "avatar_color": null
+   },
+   "replies": 178,
+   "retweets": 103,
+   "likes": 299,
+   "bookmarks": 5,
+   "quotes": 15,
+   "created_at": "Mon May 20 15:54:19 +0000 2024",
+   "created_timestamp": 1716220459,
+   "possibly_sensitive": false,
+   "views": 19691,
+   "is_note_tweet": false,
+   "community_note": null,
+   "lang": "en",
+   "replying_to": null,
+   "replying_to_status": null,
+   "media": {
+    "all": [
+     {
+      "id": "1792584582602080256",
+      "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1920x1080/wKiUPqKtSOy7jtMi.mp4?tag=16",
+      "thumbnail_url": "https://pbs.twimg.com/media/GOCKN_HXoAABa_H.jpg",
+      "duration": 26.126,
+      "width": 1920,
+      "height": 1080,
+      "format": "video/mp4",
+      "type": "video",
+      "formats": [
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/pl/CCbkUsowHxHtgGuq.m3u8?tag=16&v=62c",
+        "container": "m3u8"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/480x270/TliWCVLGsucS-DXq.mp4?tag=16",
+        "bitrate": 288000,
+        "container": "mp4",
+        "codec": "h264"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/640x360/4v_eeUZZ4MHJ6iUV.mp4?tag=16",
+        "bitrate": 832000,
+        "container": "mp4",
+        "codec": "h264"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1280x720/9xU045xcSaHtspg8.mp4?tag=16",
+        "bitrate": 2176000,
+        "container": "mp4",
+        "codec": "h264"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1920x1080/wKiUPqKtSOy7jtMi.mp4?tag=16",
+        "bitrate": 10368000,
+        "container": "mp4",
+        "codec": "h264"
+       }
+      ],
+      "publisher": null,
+      "variants": [
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/pl/CCbkUsowHxHtgGuq.m3u8?tag=16&v=62c",
+        "bitrate": 0,
+        "content_type": "application/x-mpegURL"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/480x270/TliWCVLGsucS-DXq.mp4?tag=16",
+        "bitrate": 288000,
+        "content_type": "video/mp4"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/640x360/4v_eeUZZ4MHJ6iUV.mp4?tag=16",
+        "bitrate": 832000,
+        "content_type": "video/mp4"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1280x720/9xU045xcSaHtspg8.mp4?tag=16",
+        "bitrate": 2176000,
+        "content_type": "video/mp4"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1920x1080/wKiUPqKtSOy7jtMi.mp4?tag=16",
+        "bitrate": 10368000,
+        "content_type": "video/mp4"
+       }
+      ]
+     }
+    ],
+    "videos": [
+     {
+      "id": "1792584582602080256",
+      "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1920x1080/wKiUPqKtSOy7jtMi.mp4?tag=16",
+      "thumbnail_url": "https://pbs.twimg.com/media/GOCKN_HXoAABa_H.jpg",
+      "duration": 26.126,
+      "width": 1920,
+      "height": 1080,
+      "format": "video/mp4",
+      "type": "video",
+      "formats": [
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/pl/CCbkUsowHxHtgGuq.m3u8?tag=16&v=62c",
+        "container": "m3u8"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/480x270/TliWCVLGsucS-DXq.mp4?tag=16",
+        "bitrate": 288000,
+        "container": "mp4",
+        "codec": "h264"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/640x360/4v_eeUZZ4MHJ6iUV.mp4?tag=16",
+        "bitrate": 832000,
+        "container": "mp4",
+        "codec": "h264"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1280x720/9xU045xcSaHtspg8.mp4?tag=16",
+        "bitrate": 2176000,
+        "container": "mp4",
+        "codec": "h264"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1920x1080/wKiUPqKtSOy7jtMi.mp4?tag=16",
+        "bitrate": 10368000,
+        "container": "mp4",
+        "codec": "h264"
+       }
+      ],
+      "publisher": null,
+      "variants": [
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/pl/CCbkUsowHxHtgGuq.m3u8?tag=16&v=62c",
+        "bitrate": 0,
+        "content_type": "application/x-mpegURL"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/480x270/TliWCVLGsucS-DXq.mp4?tag=16",
+        "bitrate": 288000,
+        "content_type": "video/mp4"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/640x360/4v_eeUZZ4MHJ6iUV.mp4?tag=16",
+        "bitrate": 832000,
+        "content_type": "video/mp4"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1280x720/9xU045xcSaHtspg8.mp4?tag=16",
+        "bitrate": 2176000,
+        "content_type": "video/mp4"
+       },
+       {
+        "url": "https://video.twimg.com/amplify_video/1792584582602080256/vid/avc1/1920x1080/wKiUPqKtSOy7jtMi.mp4?tag=16",
+        "bitrate": 10368000,
+        "content_type": "video/mp4"
+       }
+      ]
+     }
+    ]
+   },
+   "source": "Sprout Social",
+   "twitter_card": "player",
+   "color": null,
+   "provider": "twitter",
+   "reposted_by": null
+  }
+ },
+ "retrieved_at": "2026-09-29T09:13:25+00:00"
+}

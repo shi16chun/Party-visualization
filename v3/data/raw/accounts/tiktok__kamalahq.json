@@ -1,0 +1,62 @@
+{
+ "url": "https://www.tiktok.com/@kamalahq",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "7576764299815027743",
+  "shortId": "",
+  "uniqueId": "kamalahq",
+  "nickname": "user49",
+  "avatarLarger": "https://p19-common-sign.tiktokcdn-us.com/musically-maliva-obj/1594805258216454~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=0b6c5717&x-expires=1790845200&x-signature=aVqgt%2Fuqte2furFDq%2Fl7BdMTHEc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarMedium": "https://p19-common-sign.tiktokcdn-us.com/musically-maliva-obj/1594805258216454~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=c6cd2fb9&x-expires=1790845200&x-signature=%2FlgpIU3gsv12Une4BZwzYk1i1kU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarThumb": "https://p19-common-sign.tiktokcdn-us.com/musically-maliva-obj/1594805258216454~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=ac38697e&x-expires=1790845200&x-signature=ZuDnDC4RgBbhM2RfVROSoZJFtsQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "signature": "",
+  "createTime": 1769700099,
+  "verified": false,
+  "secUid": "MS4wLjABAAAAIx0v_kSUJLgmxjnI5IgDDqYUbyyQy-NaFbii9aMCz5z0mJ1Pa5O04aLw7q3x_xe7",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 0,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 1,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1769700165,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 0,
+  "UserStoryStatus": 0,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 76,
+  "followingCount": 0,
+  "heart": 0,
+  "heartCount": 0,
+  "videoCount": 0,
+  "diggCount": 0,
+  "friendCount": 0
+ },
+ "retrieved_at": "2026-09-29T09:17:06+00:00"
+}

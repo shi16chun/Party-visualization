@@ -1,0 +1,39 @@
+{
+ "url": "https://api.fxtwitter.com/TheDemocrats",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "TheDemocrats",
+   "url": "https://x.com/TheDemocrats",
+   "id": "14377605",
+   "followers": 2418166,
+   "following": 87,
+   "likes": 1331,
+   "media_count": 16000,
+   "tweets": 54080,
+   "name": "Democrats",
+   "description": "We’re fighting for a better, fairer, and brighter future for every American.\nChair: @kenmartin73",
+   "raw_description": {
+    "text": "We’re fighting for a better, fairer, and brighter future for every American.\nChair: @kenmartin73",
+    "facets": []
+   },
+   "location": "United States",
+   "banner_url": "https://pbs.twimg.com/profile_banners/14377605/1741795284",
+   "avatar_url": "https://pbs.twimg.com/profile_images/1899853234631536640/5olRwkVt_normal.jpg",
+   "joined": "Sun Apr 13 20:23:13 +0000 2008",
+   "protected": false,
+   "website": {
+    "url": "https://democrats.org",
+    "display_url": "democrats.org"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "individual"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:04+00:00"
+}

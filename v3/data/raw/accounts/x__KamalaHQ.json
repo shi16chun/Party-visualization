@@ -1,0 +1,9 @@
+{
+ "url": "https://api.fxtwitter.com/KamalaHQ",
+ "http_status": 404,
+ "response": {
+  "code": 404,
+  "message": "User not found"
+ },
+ "retrieved_at": "2026-09-29T09:12:32+00:00"
+}

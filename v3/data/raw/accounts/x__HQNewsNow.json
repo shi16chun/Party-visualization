@@ -1,0 +1,39 @@
+{
+ "url": "https://api.fxtwitter.com/HQNewsNow",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "HQNewsNow",
+   "url": "https://x.com/HQNewsNow",
+   "id": "3315264553",
+   "followers": 1158502,
+   "following": 19,
+   "likes": 184,
+   "media_count": 13126,
+   "tweets": 15230,
+   "name": "Headquarters",
+   "description": "News you can use.",
+   "raw_description": {
+    "text": "News you can use.",
+    "facets": []
+   },
+   "location": "",
+   "banner_url": "https://pbs.twimg.com/profile_banners/3315264553/1770298404",
+   "avatar_url": "https://pbs.twimg.com/profile_images/2019403777715974144/WztWhdNQ_normal.jpg",
+   "joined": "Fri Aug 14 16:21:06 +0000 2015",
+   "protected": false,
+   "website": {
+    "url": "http://headquarters.news",
+    "display_url": "headquarters.news"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "individual"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:35+00:00"
+}

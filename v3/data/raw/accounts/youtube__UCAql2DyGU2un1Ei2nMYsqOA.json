@@ -1,0 +1,15 @@
+{
+ "url": "https://www.youtube.com/channel/UCAql2DyGU2un1Ei2nMYsqOA/about",
+ "http_status": 200,
+ "extracted": {
+  "joined": "Mar 16, 2015",
+  "subscribers_text": "3.96M subscribers",
+  "video_count_text": "4,364 videos",
+  "canonical_url": "http://www.youtube.com/@DonaldJTrumpforPresident",
+  "channel_id": "UCAql2DyGU2un1Ei2nMYsqOA",
+  "title": "Donald J Trump",
+  "verified_badge": true
+ },
+ "raw_excerpt": null,
+ "retrieved_at": "2026-09-29T09:11:03+00:00"
+}

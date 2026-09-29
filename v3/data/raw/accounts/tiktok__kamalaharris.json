@@ -1,0 +1,66 @@
+{
+ "url": "https://www.tiktok.com/@kamalaharris",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "7394972757619196971",
+  "shortId": "",
+  "uniqueId": "kamalaharris",
+  "nickname": "Kamala Harris",
+  "avatarLarger": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/7f37eb177ec9b211b9ef5499cb89d154~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=912ccd2d&x-expires=1790845200&x-signature=glRwyuXh2DPu7Z1TibFadKiTAMA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarMedium": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/7f37eb177ec9b211b9ef5499cb89d154~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=a0ac4a7c&x-expires=1790845200&x-signature=VBCJuJ%2BEqK8Lt7mlsJ1P5yHDzY4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/7f37eb177ec9b211b9ef5499cb89d154~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=7c12a1c7&x-expires=1790845200&x-signature=4CxrKdugKVHamC09z5LupA3Iw2E%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "signature": "Wife, Momala, Auntie. She/her.\n107 Days is available now ↓",
+  "createTime": 1721776368,
+  "verified": true,
+  "secUid": "MS4wLjABAAAAy0QisaMe9t_rbwBvaBg5aiXZKc1SY2APwJs8erPQX-GCSeg8UsEk6Lg6m0HbRGvP",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "bioLink": {
+   "link": "https://kamalaharris.link/107Days",
+   "risk": 3
+  },
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 0,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 2,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1721776387,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 1,
+  "UserStoryStatus": 0,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 10000000,
+  "followingCount": 26,
+  "heart": 176500000,
+  "heartCount": 176500000,
+  "videoCount": 299,
+  "diggCount": 0,
+  "friendCount": 11
+ },
+ "retrieved_at": "2026-09-29T09:17:11+00:00"
+}

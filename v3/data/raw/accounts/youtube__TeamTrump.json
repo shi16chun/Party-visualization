@@ -1,0 +1,15 @@
+{
+ "url": "https://www.youtube.com/@TeamTrump/about",
+ "http_status": 200,
+ "extracted": {
+  "joined": "Jul 25, 2016",
+  "subscribers_text": "10.5K subscribers",
+  "video_count_text": "23 videos",
+  "canonical_url": "http://www.youtube.com/@teamtrump",
+  "channel_id": "UCbElcfNJQJHYiNoaV8F7E5g",
+  "title": "Team Trump",
+  "verified_badge": false
+ },
+ "raw_excerpt": null,
+ "retrieved_at": "2026-09-29T09:11:37+00:00"
+}

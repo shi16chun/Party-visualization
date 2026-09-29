@@ -1,0 +1,15 @@
+{
+ "url": "https://www.youtube.com/channel/UC3o7kbpTUQ5-0WTMIp8sVwA/about",
+ "http_status": 200,
+ "extracted": {
+  "joined": "Jan 22, 2006",
+  "subscribers_text": "97.5K subscribers",
+  "video_count_text": "2,312 videos",
+  "canonical_url": "http://www.youtube.com/@Republicans",
+  "channel_id": "UC3o7kbpTUQ5-0WTMIp8sVwA",
+  "title": "GOP",
+  "verified_badge": true
+ },
+ "raw_excerpt": null,
+ "retrieved_at": "2026-09-29T09:10:58+00:00"
+}

@@ -1,0 +1,62 @@
+{
+ "url": "https://www.tiktok.com/@thedemocrats",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "7401714093455377454",
+  "shortId": "",
+  "uniqueId": "thedemocrats",
+  "nickname": "thedemocrats",
+  "avatarLarger": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/0a0592b102917e2292bf12a3490c23a4~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=b5d72123&x-expires=1790845200&x-signature=Tr462%2B47M3WEF1udfLQH%2FqPFfxU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarMedium": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/0a0592b102917e2292bf12a3490c23a4~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=1c642282&x-expires=1790845200&x-signature=Y4DvMaUgWpD%2B37n%2F%2FvoXWOl31jc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/0a0592b102917e2292bf12a3490c23a4~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=b64515a8&x-expires=1790845200&x-signature=wxNZz2HIZMKJORpssqpT2Cas7O4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "signature": "Gay 🏳️‍🌈",
+  "createTime": 1723869592,
+  "verified": false,
+  "secUid": "MS4wLjABAAAAbQ607JIFAgILYaiMx1OQTbxhPVAYZzIXuM_f-mcvSotVB7U37fd2Lvpg10X4qWji",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 1788570533,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 1,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1788570522,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 0,
+  "UserStoryStatus": 1,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 1337,
+  "followingCount": 1477,
+  "heart": 2058,
+  "heartCount": 2058,
+  "videoCount": 14,
+  "diggCount": 0,
+  "friendCount": 728
+ },
+ "retrieved_at": "2026-09-29T09:16:51+00:00"
+}

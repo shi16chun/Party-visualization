@@ -1,0 +1,39 @@
+{
+ "url": "https://api.fxtwitter.com/realDonaldTrump",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "realDonaldTrump",
+   "url": "https://x.com/realDonaldTrump",
+   "id": "25073877",
+   "followers": 111872541,
+   "following": 53,
+   "likes": 0,
+   "media_count": 5435,
+   "tweets": 59901,
+   "name": "Donald J. Trump",
+   "description": "45th & 47th President of the United States of America🇺🇸",
+   "raw_description": {
+    "text": "45th & 47th President of the United States of America🇺🇸",
+    "facets": []
+   },
+   "location": "",
+   "banner_url": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+   "avatar_url": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+   "joined": "Wed Mar 18 13:46:38 +0000 2009",
+   "protected": false,
+   "website": {
+    "url": "http://DonaldJTrump.com",
+    "display_url": "DonaldJTrump.com"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "government"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:44+00:00"
+}

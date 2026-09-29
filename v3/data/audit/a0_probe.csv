@@ -1,0 +1,58 @@
+node,platform,probe_type,probe_key,http_status,exists,platform_id,handle_now,display_name,created,verified,followers_now,posts_now,raw_file,retrieved_at
+DNC,youtube,channel_id,UClkO4MArT2WKWj32YDD_-Ew,200,True,UClkO4MArT2WKWj32YDD_-Ew,@TheDemocrats,The Democrats,2006-07-27,True,163000,1623,v3/data/raw/accounts/youtube__UClkO4MArT2WKWj32YDD_-Ew.json,2026-09-29T09:10:56+00:00
+RNC,youtube,channel_id,UC3o7kbpTUQ5-0WTMIp8sVwA,200,True,UC3o7kbpTUQ5-0WTMIp8sVwA,@Republicans,GOP,2006-01-22,True,97500,2312,v3/data/raw/accounts/youtube__UC3o7kbpTUQ5-0WTMIp8sVwA.json,2026-09-29T09:10:58+00:00
+Kamala Harris,youtube,channel_id,UC0XBsJpPhOLg0k4x9ZwrWzw,200,True,UC0XBsJpPhOLg0k4x9ZwrWzw,@kamalaharris,Kamala Harris,2008-08-18,True,855000,817,v3/data/raw/accounts/youtube__UC0XBsJpPhOLg0k4x9ZwrWzw.json,2026-09-29T09:11:00+00:00
+Donald J. Trump,youtube,channel_id,UCAql2DyGU2un1Ei2nMYsqOA,200,True,UCAql2DyGU2un1Ei2nMYsqOA,@DonaldJTrumpforPresident,Donald J Trump,2015-03-16,True,3960000,4364,v3/data/raw/accounts/youtube__UCAql2DyGU2un1Ei2nMYsqOA.json,2026-09-29T09:11:03+00:00
+Kamala HQ,youtube,handle,KamalaHQ,404,False,,,,,,,,v3/data/raw/accounts/youtube__KamalaHQ.json,2026-09-29T09:11:17+00:00
+Kamala HQ,youtube,handle,HQNewsNow,404,False,,,,,,,,v3/data/raw/accounts/youtube__HQNewsNow.json,2026-09-29T09:11:32+00:00
+Kamala HQ,youtube,handle,headquarters,200,True,UCnniIiQ9zAOjTcnct0xccig,@Headquarters,Headquarters,2024-01-12,False,1460,238,v3/data/raw/accounts/youtube__headquarters.json,2026-09-29T09:11:34+00:00
+Team Trump,youtube,handle,TeamTrump,200,True,UCbElcfNJQJHYiNoaV8F7E5g,@teamtrump,Team Trump,2016-07-25,False,10500,23,v3/data/raw/accounts/youtube__TeamTrump.json,2026-09-29T09:11:37+00:00
+DNC,x,handle,TheDemocrats,200,True,14377605,TheDemocrats,Democrats,2008-04-13,True:individual,2418166,54080,v3/data/raw/accounts/x__TheDemocrats.json,2026-09-29T09:12:04+00:00
+DNC,x,handle,DNC,200,True,722793491059769344,DNC,Democratic Party,2016-04-20,True:individual,139862,9,v3/data/raw/accounts/x__DNC.json,2026-09-29T09:12:06+00:00
+RNC,x,handle,GOP,200,True,2046223166461136896,GOP,GOP,2026-04-20,True:individual,4488,9,v3/data/raw/accounts/x__GOP.json,2026-09-29T09:12:09+00:00
+RNC,x,handle,Republicans,200,True,11134252,Republicans,Republicans,2007-12-13,True:individual,3460807,76392,v3/data/raw/accounts/x__Republicans.json,2026-09-29T09:12:14+00:00
+RNC,x,handle,RNC,200,True,529648439,RNC,RNC,2012-03-19,False:None,8978,0,v3/data/raw/accounts/x__RNC.json,2026-09-29T09:12:17+00:00
+Kamala HQ,x,handle,KamalaHQ,404,False,,,,,,,,v3/data/raw/accounts/x__KamalaHQ.json,2026-09-29T09:12:32+00:00
+Kamala HQ,x,handle,HQNewsNow,200,True,3315264553,HQNewsNow,Headquarters,2015-08-14,True:individual,1158502,15230,v3/data/raw/accounts/x__HQNewsNow.json,2026-09-29T09:12:35+00:00
+Kamala HQ,x,handle,headquarters_67,200,True,1798809517620113408,headquarters_67,just isaac,2024-06-06,False:None,2481,3738,v3/data/raw/accounts/x__headquarters_67.json,2026-09-29T09:12:37+00:00
+Kamala Harris,x,handle,KamalaHarris,200,True,30354991,KamalaHarris,Kamala Harris,2009-04-11,True:individual,20979744,20324,v3/data/raw/accounts/x__KamalaHarris.json,2026-09-29T09:12:39+00:00
+Team Trump,x,handle,TeamTrump,200,True,729676086632656900,TeamTrump,Team Trump (Text TRUMP to 88022),2016-05-09,True:organization,2594976,48019,v3/data/raw/accounts/x__TeamTrump.json,2026-09-29T09:12:42+00:00
+Donald J. Trump,x,handle,realDonaldTrump,200,True,25073877,realDonaldTrump,Donald J. Trump,2009-03-18,True:government,111872541,59901,v3/data/raw/accounts/x__realDonaldTrump.json,2026-09-29T09:12:44+00:00
+Donald J. Trump,truthsocial,handle,realDonaldTrump,403,,,,,,,,,v3/data/raw/accounts/truthsocial__realDonaldTrump.json,2026-09-29T09:12:52+00:00
+Team Trump,truthsocial,handle,TeamTrump,403,,,,,,,,,v3/data/raw/accounts/truthsocial__TeamTrump.json,2026-09-29T09:13:01+00:00
+RNC,truthsocial,handle,GOP,403,,,,,,,,,v3/data/raw/accounts/truthsocial__GOP.json,2026-09-29T09:13:09+00:00
+RNC,truthsocial,handle,RNC,403,,,,,,,,,v3/data/raw/accounts/truthsocial__RNC.json,2026-09-29T09:13:18+00:00
+Kamala HQ,x,post_2024,1815212766912803099,200,True,3315264553,HQNewsNow,Headquarters,Mon Jul 22 02:30:23 +0000 2024,,1158502,,v3/data/raw/accounts/x__post_1815212766912803099.json,2026-09-29T09:13:20+00:00
+Kamala HQ,x,post_2024,1834237601659703754,200,True,3315264553,HQNewsNow,Headquarters,Thu Sep 12 14:28:17 +0000 2024,,1158502,,v3/data/raw/accounts/x__post_1834237601659703754.json,2026-09-29T09:13:22+00:00
+RNC,x,post_2024,1792584647336931731,200,True,11134252,Republicans,Republicans,Mon May 20 15:54:19 +0000 2024,,3460807,,v3/data/raw/accounts/x__post_1792584647336931731.json,2026-09-29T09:13:25+00:00
+RNC,x,post_2024,1792600850860327031,200,True,11134252,Republicans,Republicans,Mon May 20 16:58:42 +0000 2024,,3460807,,v3/data/raw/accounts/x__post_1792600850860327031.json,2026-09-29T09:13:27+00:00
+DNC,x,post_2024,1833680183540191305,200,True,14377605,TheDemocrats,Democrats,Wed Sep 11 01:33:18 +0000 2024,,2418166,,v3/data/raw/accounts/x__post_1833680183540191305.json,2026-09-29T09:13:29+00:00
+Team Trump,x,post_2024,1835314099757916355,200,True,729676086632656900,TeamTrump,Team Trump (Text TRUMP to 88022),Sun Sep 15 13:45:54 +0000 2024,,2594976,,v3/data/raw/accounts/x__post_1835314099757916355.json,2026-09-29T09:13:31+00:00
+Kamala Harris,x,post_2024,1851815659144872236,200,True,30354991,KamalaHarris,Kamala Harris,Thu Oct 31 02:37:12 +0000 2024,,20979744,,v3/data/raw/accounts/x__post_1851815659144872236.json,2026-09-29T09:13:34+00:00
+Donald J. Trump,x,post_2024,1823035759655264697,200,True,25073877,realDonaldTrump,Donald J. Trump,Mon Aug 12 16:36:10 +0000 2024,,111872545,,v3/data/raw/accounts/x__post_1823035759655264697.json,2026-09-29T09:13:36+00:00
+DNC,youtube,post_2024,iyxa3eCv44U,0,False,,,,,,,,v3/data/raw/accounts/youtube__post_iyxa3eCv44U.json,2026-09-29T09:14:00+00:00
+RNC,youtube,post_2024,qGd4-MKK5_s,0,False,,,,,,,,v3/data/raw/accounts/youtube__post_qGd4-MKK5_s.json,2026-09-29T09:14:04+00:00
+Kamala Harris,youtube,post_2024,f6hcPwHIGc0,0,False,,,,,,,,v3/data/raw/accounts/youtube__post_f6hcPwHIGc0.json,2026-09-29T09:14:08+00:00
+Donald J. Trump,youtube,post_2024,-U3fvlYkQa4,0,False,,,,,,,,v3/data/raw/accounts/youtube__post_-U3fvlYkQa4.json,2026-09-29T09:14:12+00:00
+Kamala HQ,youtube,post_2024,GsXS8WudinM,0,False,,,,,,,,v3/data/raw/accounts/youtube__post_GsXS8WudinM.json,2026-09-29T09:14:16+00:00
+Kamala HQ,youtube,post_2024,w_yGrsxNprA,0,False,,,,,,,,v3/data/raw/accounts/youtube__post_w_yGrsxNprA.json,2026-09-29T09:14:19+00:00
+Team Trump,youtube,post_2024,vST61W4bGm8,0,False,,,,,,,,v3/data/raw/accounts/youtube__post_vST61W4bGm8.json,2026-09-29T09:14:23+00:00
+DNC,tiktok,handle,thedemocrats,200,True,7401714093455377454,thedemocrats,thedemocrats,2024-08-17,False,1337,14,v3/data/raw/accounts/tiktok__thedemocrats.json,2026-09-29T09:16:51+00:00
+DNC,tiktok,handle,democrats,200,True,7044304201086321670,democrats,Democrats,2021-12-21,True,6000000,3151,v3/data/raw/accounts/tiktok__democrats.json,2026-09-29T09:16:54+00:00
+DNC,tiktok,handle,dnc,200,True,7044777144292312069,dnc,user2440616991822,2021-12-23,False,5,0,v3/data/raw/accounts/tiktok__dnc.json,2026-09-29T09:16:56+00:00
+RNC,tiktok,handle,gop,200,True,7418169760637371435,gop,GOP,2026-01-07,True,364,0,v3/data/raw/accounts/tiktok__gop.json,2026-09-29T09:16:58+00:00
+RNC,tiktok,handle,republicans,200,True,7592735461091083278,republicans,Republicans,2026-01-07,True,679600,322,v3/data/raw/accounts/tiktok__republicans.json,2026-09-29T09:17:01+00:00
+RNC,tiktok,handle,rnc,200,True,7594498904076665877,rnc,rnc,2026-01-12,False,0,0,v3/data/raw/accounts/tiktok__rnc.json,2026-09-29T09:17:03+00:00
+Kamala HQ,tiktok,handle,kamalahq,200,True,7576764299815027743,kamalahq,user49,2026-01-29,False,76,0,v3/data/raw/accounts/tiktok__kamalahq.json,2026-09-29T09:17:06+00:00
+Kamala HQ,tiktok,handle,headquarters,200,True,7334124418954200106,headquarters,Headquarters,2024-02-10,True,6000000,2375,v3/data/raw/accounts/tiktok__headquarters.json,2026-09-29T09:17:08+00:00
+Kamala Harris,tiktok,handle,kamalaharris,200,True,7394972757619196971,kamalaharris,Kamala Harris,2024-07-23,True,10000000,299,v3/data/raw/accounts/tiktok__kamalaharris.json,2026-09-29T09:17:11+00:00
+Team Trump,tiktok,handle,teamtrump,200,True,7365161718782395438,teamtrump,Team Trump,2024-05-04,True,14200000,1308,v3/data/raw/accounts/tiktok__teamtrump.json,2026-09-29T09:17:13+00:00
+Donald J. Trump,tiktok,handle,realdonaldtrump,200,True,7372700493900645422,realdonaldtrump,President Donald J Trump,2024-05-24,True,17000000,84,v3/data/raw/accounts/tiktok__realdonaldtrump.json,2026-09-29T09:17:16+00:00
+DNC,tiktok,post_2024,7406055642676464939,200,True,7044304201086321670,democrats,Democrats,2024-08-22T19:58:30+00:00,True,,,v3/data/raw/accounts/tiktok__post_7406055642676464939.json,2026-09-29T09:17:18+00:00
+Kamala HQ,tiktok,post_2024,7400033789335948575,200,True,7334124418954200106,headquarters,Headquarters,2024-08-06T14:30:55+00:00,True,,,v3/data/raw/accounts/tiktok__post_7400033789335948575.json,2026-09-29T09:17:21+00:00
+Kamala HQ,tiktok,post_2024,7431356795391692074,200,True,7334124418954200106,headquarters,Headquarters,2024-10-30T00:19:51+00:00,True,,,v3/data/raw/accounts/tiktok__post_7431356795391692074.json,2026-09-29T09:17:23+00:00
+Kamala Harris,tiktok,post_2024,7395695233276595487,200,True,7394972757619196971,kamalaharris,Kamala Harris,2024-07-25T21:54:57+00:00,True,,,v3/data/raw/accounts/tiktok__post_7395695233276595487.json,2026-09-29T09:17:26+00:00
+Kamala Harris,tiktok,post_2024,7426486234593217838,200,True,7394972757619196971,kamalaharris,Kamala Harris,2024-10-16T21:19:35+00:00,True,,,v3/data/raw/accounts/tiktok__post_7426486234593217838.json,2026-09-29T09:17:28+00:00
+Team Trump,tiktok,post_2024,7433202628072394030,200,True,7365161718782395438,teamtrump,Team Trump,2024-11-03T23:42:36+00:00,True,,,v3/data/raw/accounts/tiktok__post_7433202628072394030.json,2026-09-29T09:17:31+00:00
+Donald J. Trump,tiktok,post_2024,7403175874607975710,200,True,7372700493900645422,realdonaldtrump,President Donald J Trump,2024-08-15T01:43:36+00:00,True,,,v3/data/raw/accounts/tiktok__post_7403175874607975710.json,2026-09-29T09:17:34+00:00
+Donald J. Trump,tiktok,post_2024,7427237451954965791,200,True,7372700493900645422,realdonaldtrump,President Donald J Trump,2024-10-18T21:54:55+00:00,True,,,v3/data/raw/accounts/tiktok__post_7427237451954965791.json,2026-09-29T09:17:37+00:00

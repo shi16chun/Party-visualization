@@ -1,0 +1,49 @@
+{
+ "url": "https://api.fxtwitter.com/RNC",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "RNC",
+   "url": "https://x.com/RNC",
+   "id": "529648439",
+   "followers": 8978,
+   "following": 0,
+   "likes": 0,
+   "media_count": 0,
+   "tweets": 0,
+   "name": "RNC",
+   "description": "For official RNC updates, please follow @GOP.",
+   "raw_description": {
+    "text": "For official RNC updates, please follow @GOP.",
+    "facets": [
+     {
+      "type": "mention",
+      "indices": [
+       40,
+       44
+      ],
+      "original": "GOP",
+      "id": ""
+     }
+    ]
+   },
+   "location": "",
+   "banner_url": "",
+   "avatar_url": "https://pbs.twimg.com/profile_images/1986308478/TwitterGOPlogo_normal.jpg",
+   "joined": "Mon Mar 19 19:20:07 +0000 2012",
+   "protected": false,
+   "website": {
+    "url": "http://gop.com",
+    "display_url": "gop.com"
+   },
+   "verification": {
+    "verified": false,
+    "verified_at": null,
+    "type": null
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:17+00:00"
+}

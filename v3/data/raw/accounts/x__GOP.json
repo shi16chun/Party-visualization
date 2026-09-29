@@ -1,0 +1,36 @@
+{
+ "url": "https://api.fxtwitter.com/GOP",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "GOP",
+   "url": "https://x.com/GOP",
+   "id": "2046223166461136896",
+   "followers": 4488,
+   "following": 1,
+   "likes": 0,
+   "media_count": 9,
+   "tweets": 9,
+   "name": "GOP",
+   "description": "Join the party of Opportunity, Optimism, Overachieving, and so much more - text GOP to 80810",
+   "raw_description": {
+    "text": "Join the party of Opportunity, Optimism, Overachieving, and so much more - text GOP to 80810",
+    "facets": []
+   },
+   "location": "",
+   "banner_url": "",
+   "avatar_url": "https://pbs.twimg.com/profile_images/2046636867303383040/rQqgG4im_normal.jpg",
+   "joined": "Mon Apr 20 13:43:44 +0000 2026",
+   "protected": false,
+   "website": null,
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "individual"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:09+00:00"
+}

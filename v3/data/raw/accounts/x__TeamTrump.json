@@ -1,0 +1,39 @@
+{
+ "url": "https://api.fxtwitter.com/TeamTrump",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "TeamTrump",
+   "url": "https://x.com/TeamTrump",
+   "id": "729676086632656900",
+   "followers": 2594976,
+   "following": 195,
+   "likes": 9870,
+   "media_count": 13198,
+   "tweets": 48019,
+   "name": "Team Trump (Text TRUMP to 88022)",
+   "description": "The official X account for the Trump campaign. Together, we will MAKE AMERICA GREAT AGAIN! 🇺🇸",
+   "raw_description": {
+    "text": "The official X account for the Trump campaign. Together, we will MAKE AMERICA GREAT AGAIN! 🇺🇸",
+    "facets": []
+   },
+   "location": "USA",
+   "banner_url": "https://pbs.twimg.com/profile_banners/729676086632656900/1721750363",
+   "avatar_url": "https://pbs.twimg.com/profile_images/745768799849308160/KrZhjkpH_normal.jpg",
+   "joined": "Mon May 09 14:15:10 +0000 2016",
+   "protected": false,
+   "website": {
+    "url": "http://www.DonaldJTrump.com",
+    "display_url": "DonaldJTrump.com"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "organization"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:42+00:00"
+}

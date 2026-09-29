@@ -1,0 +1,46 @@
+{
+ "url": "https://api.fxtwitter.com/headquarters_67",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "headquarters_67",
+   "url": "https://x.com/headquarters_67",
+   "id": "1798809517620113408",
+   "followers": 2481,
+   "following": 418,
+   "likes": 43704,
+   "media_count": 483,
+   "tweets": 3738,
+   "name": "just isaac",
+   "description": "i play a lot of solitaire and love the amtrak | @67alts",
+   "raw_description": {
+    "text": "i play a lot of solitaire and love the amtrak | @67alts",
+    "facets": [
+     {
+      "type": "mention",
+      "indices": [
+       48,
+       55
+      ],
+      "original": "67alts",
+      "id": ""
+     }
+    ]
+   },
+   "location": "Washington, DC",
+   "banner_url": "https://pbs.twimg.com/profile_banners/1798809517620113408/1770415841",
+   "avatar_url": "https://pbs.twimg.com/profile_images/2091198051683606528/FLWWZclv_normal.jpg",
+   "joined": "Thu Jun 06 20:09:54 +0000 2024",
+   "protected": false,
+   "website": null,
+   "verification": {
+    "verified": false,
+    "verified_at": null,
+    "type": null
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:37+00:00"
+}

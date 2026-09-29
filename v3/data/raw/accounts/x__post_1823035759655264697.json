@@ -1,0 +1,103 @@
+{
+ "url": "https://api.fxtwitter.com/status/1823035759655264697",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+   "url": "https://x.com/realDonaldTrump/status/1823035759655264697",
+   "id": "1823035759655264697",
+   "text": "ENJOY!",
+   "raw_text": {
+    "text": "ENJOY! https://t.co/un0WwfJlpw",
+    "display_text_range": [
+     0,
+     6
+    ],
+    "facets": [
+     {
+      "type": "media",
+      "indices": [
+       7,
+       30
+      ],
+      "id": "1823035755448410112",
+      "display": "pic.x.com/un0WwfJlpw",
+      "original": "https://t.co/un0WwfJlpw",
+      "replacement": "https://x.com/realDonaldTrump/status/1823035759655264697/photo/1"
+     }
+    ]
+   },
+   "author": {
+    "screen_name": "realDonaldTrump",
+    "url": "https://x.com/realDonaldTrump",
+    "id": "25073877",
+    "followers": 111872545,
+    "following": 53,
+    "likes": 0,
+    "media_count": 5435,
+    "name": "Donald J. Trump",
+    "description": "45th & 47th President of the United States of America🇺🇸",
+    "raw_description": {
+     "text": "45th & 47th President of the United States of America🇺🇸",
+     "facets": []
+    },
+    "location": "",
+    "banner_url": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+    "avatar_url": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_200x200.jpg",
+    "joined": "Wed Mar 18 13:46:38 +0000 2009",
+    "protected": false,
+    "website": {
+     "url": "http://DonaldJTrump.com",
+     "display_url": "DonaldJTrump.com"
+    },
+    "verification": {
+     "verified": true,
+     "verified_at": null,
+     "type": "government"
+    },
+    "avatar_color": null
+   },
+   "replies": 21253,
+   "retweets": 75882,
+   "likes": 497787,
+   "bookmarks": 9313,
+   "quotes": 6818,
+   "created_at": "Mon Aug 12 16:36:10 +0000 2024",
+   "created_timestamp": 1723480570,
+   "possibly_sensitive": false,
+   "views": 21942098,
+   "is_note_tweet": false,
+   "community_note": null,
+   "lang": "en",
+   "replying_to": null,
+   "replying_to_status": null,
+   "media": {
+    "all": [
+     {
+      "type": "photo",
+      "id": "1823035755448410112",
+      "url": "https://pbs.twimg.com/media/GUy5XFhWoAAXHkj.jpg?name=orig",
+      "width": 1080,
+      "height": 1080
+     }
+    ],
+    "photos": [
+     {
+      "type": "photo",
+      "id": "1823035755448410112",
+      "url": "https://pbs.twimg.com/media/GUy5XFhWoAAXHkj.jpg?name=orig",
+      "width": 1080,
+      "height": 1080
+     }
+    ]
+   },
+   "source": "Twitter for iPhone",
+   "twitter_card": "summary_large_image",
+   "color": null,
+   "provider": "twitter",
+   "reposted_by": null
+  }
+ },
+ "retrieved_at": "2026-09-29T09:13:36+00:00"
+}

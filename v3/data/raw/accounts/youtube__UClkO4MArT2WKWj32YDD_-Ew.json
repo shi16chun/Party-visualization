@@ -1,0 +1,15 @@
+{
+ "url": "https://www.youtube.com/channel/UClkO4MArT2WKWj32YDD_-Ew/about",
+ "http_status": 200,
+ "extracted": {
+  "joined": "Jul 27, 2006",
+  "subscribers_text": "163K subscribers",
+  "video_count_text": "1,623 videos",
+  "canonical_url": "http://www.youtube.com/@TheDemocrats",
+  "channel_id": "UClkO4MArT2WKWj32YDD_-Ew",
+  "title": "The Democrats",
+  "verified_badge": true
+ },
+ "raw_excerpt": null,
+ "retrieved_at": "2026-09-29T09:10:56+00:00"
+}

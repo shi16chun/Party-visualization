@@ -5,7 +5,7 @@
 | 卡号 | 完成日期 | 输出文件 | 未解决问题 |
 | --- | --- | --- | --- |
 | P0 准备 | 2026-09-29 | v3/REVISION_PLAN.md；v3/progress.md；v3/manuscript_v1_submitted.md；v3/manuscript_v1_media/；v3/v1_fix_checklist.md | 见下方P0条目 |
-| A0 |  |  |  |
+| A0 | 2026-09-29 | v3/data/accounts.csv；v3/data/audit/a0_probe.csv；v3/data/audit/a0_evidence.md；v3/data/raw/accounts/；v3/scripts/a0_probe_accounts.py；v3/scripts/a0_build_accounts.py | 见下方A0条目 |
 | A1 |  |  |  |
 
 ## P0 准备（2026-09-29）
@@ -28,3 +28,19 @@
   - web.archive.org 需加入环境网络允许列表。
   - 仓库仍为公开状态。
   - 第十节决策点中TikTok与X数据接口两项，须在A2、A3开工前确定。
+
+## A0 账号核验（2026-09-29）
+
+- 输出
+  - `v3/data/accounts.csv`：6个节点×4个平台共24行，无空值。除大纲要求的9列外，另有 role、status、handle_2024、active_in_window、window_evidence、followers_now、display_name_now、notes。
+  - `v3/data/audit/a0_probe.csv`、`v3/data/raw/accounts/`：逐次探测的解析结果与原始返回。
+  - `v3/data/audit/a0_evidence.md`：与大纲不一致之处、窗口期发布证据、采集问题、待决事项。
+- 关键参数：请求间隔2秒；X用 api.fxtwitter.com 未登录接口；TikTok读用户主页与视频页内嵌数据；YouTube读频道 /about 页。
+- 主要发现
+  - 选举后改名的账号：Kamala HQ（X现名@HQNewsNow，TikTok现名@headquarters，YouTube现名@Headquarters）；RNC的X账号（2024年@GOP，现名@Republicans）。现@kamalahq、@GOP、@headquarters_67、@thedemocrats均为无关账号。
+  - 大纲账号表的更正：DNC的TikTok为@democrats；RNC窗口期内无可核实的官方TikTok（@Republicans于2026年2月开设）；Kamala HQ在Truth Social有账号（原@BidenHQ）；Team Trump的YouTube频道窗口期无发布。
+- 未解决问题
+  - RNC的X账号、RNC与Team Trump的Truth Social账号，窗口期是否发布尚未取得帖子级证据，留待A3、A4。
+  - Truth Social四个账号的ID与创建日期未取得（Cloudflare拦截）。
+  - YouTube在本环境被限流（429与机器人验证），7条视频级探测失败，已记入a0_probe.csv。
+  - 待你决定：a0_evidence.md第五节四项。

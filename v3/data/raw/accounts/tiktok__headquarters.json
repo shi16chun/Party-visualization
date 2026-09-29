@@ -1,0 +1,66 @@
+{
+ "url": "https://www.tiktok.com/@headquarters",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "7334124418954200106",
+  "shortId": "",
+  "uniqueId": "headquarters",
+  "nickname": "Headquarters",
+  "avatarLarger": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/bc69b9484e1b960a53b4129e1d119ef4~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=41d3251f&x-expires=1790845200&x-signature=9LgVRLxmHaGRm3ueZh5vPESIa1E%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarMedium": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/bc69b9484e1b960a53b4129e1d119ef4~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=7064ae0c&x-expires=1790845200&x-signature=gejAW8MO2MeF7n1g%2B61YTU%2BzPjs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarThumb": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/bc69b9484e1b960a53b4129e1d119ef4~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=95b3db78&x-expires=1790845200&x-signature=Jme2KOPG2usY7kh82Fkv%2F11AWps%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "signature": "News you can use.",
+  "createTime": 1707608950,
+  "verified": true,
+  "secUid": "MS4wLjABAAAAdS-2IIPTkxR5BwnI-1NIh-qVHKIPoopksQb8Hk3pUYo-1ksnG3DHC4pIIprVdH1f",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "bioLink": {
+   "link": "headquarters.news",
+   "risk": 3
+  },
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 0,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 2,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1707608982,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 1,
+  "UserStoryStatus": 0,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 6000000,
+  "followingCount": 34,
+  "heart": 493300000,
+  "heartCount": 493300000,
+  "videoCount": 2375,
+  "diggCount": 0,
+  "friendCount": 13
+ },
+ "retrieved_at": "2026-09-29T09:17:08+00:00"
+}

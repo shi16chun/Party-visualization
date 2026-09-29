@@ -1,0 +1,39 @@
+{
+ "url": "https://api.fxtwitter.com/Republicans",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "Republicans",
+   "url": "https://x.com/Republicans",
+   "id": "11134252",
+   "followers": 3460807,
+   "following": 996,
+   "likes": 2400,
+   "media_count": 21086,
+   "tweets": 76392,
+   "name": "Republicans",
+   "description": "Text TRUMP to 80810 to help us Make America Great Again! 🇺🇸",
+   "raw_description": {
+    "text": "Text TRUMP to 80810 to help us Make America Great Again! 🇺🇸",
+    "facets": []
+   },
+   "location": "",
+   "banner_url": "https://pbs.twimg.com/profile_banners/11134252/1789419052",
+   "avatar_url": "https://pbs.twimg.com/profile_images/2046270432932716544/E8Cv1CG9_normal.jpg",
+   "joined": "Thu Dec 13 17:15:41 +0000 2007",
+   "protected": false,
+   "website": {
+    "url": "http://GOP.com",
+    "display_url": "GOP.com"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "individual"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:14+00:00"
+}

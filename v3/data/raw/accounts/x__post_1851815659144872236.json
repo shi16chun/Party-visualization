@@ -1,0 +1,263 @@
+{
+ "url": "https://api.fxtwitter.com/status/1851815659144872236",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+   "url": "https://x.com/KamalaHarris/status/1851815659144872236",
+   "id": "1851815659144872236",
+   "text": "Donald Trump thinks he should get to make decisions about what you do with your body.\n\nWhether you like it or not.",
+   "raw_text": {
+    "text": "Donald Trump thinks he should get to make decisions about what you do with your body.\n\nWhether you like it or not.",
+    "display_text_range": [
+     0,
+     114
+    ],
+    "facets": []
+   },
+   "author": {
+    "screen_name": "KamalaHarris",
+    "url": "https://x.com/KamalaHarris",
+    "id": "30354991",
+    "followers": 20979744,
+    "following": 699,
+    "likes": 355,
+    "media_count": 5086,
+    "name": "Kamala Harris",
+    "description": "Always fighting for the people. Wife, Momala, Auntie. She/her. 107 Days available now.",
+    "raw_description": {
+     "text": "Always fighting for the people. Wife, Momala, Auntie. She/her. 107 Days available now.",
+     "facets": []
+    },
+    "location": "Washington, DC",
+    "banner_url": "https://pbs.twimg.com/profile_banners/30354991/1736795995",
+    "avatar_url": "https://pbs.twimg.com/profile_images/1592241313700782081/T2pTYU8d_200x200.jpg",
+    "joined": "Sat Apr 11 00:42:07 +0000 2009",
+    "protected": false,
+    "website": {
+     "url": "http://kamalaharris.link/107Days",
+     "display_url": "kamalaharris.link/107Days"
+    },
+    "verification": {
+     "verified": true,
+     "verified_at": null,
+     "type": "individual"
+    },
+    "avatar_color": null
+   },
+   "replies": 8046,
+   "retweets": 6526,
+   "likes": 34564,
+   "bookmarks": 662,
+   "quotes": 644,
+   "created_at": "Thu Oct 31 02:37:12 +0000 2024",
+   "created_timestamp": 1730342232,
+   "views": 3295947,
+   "is_note_tweet": false,
+   "community_note": null,
+   "lang": "en",
+   "replying_to": null,
+   "replying_to_status": null,
+   "quote": {
+    "url": "https://x.com/HQNewsNow/status/1851779267106889824",
+    "id": "1851779267106889824",
+    "text": "Trump: I told women I will be their protector. They said, ‘Sir, please don’t say that.’ Well I'm going to do it whether the women like it or not",
+    "raw_text": {
+     "text": "Trump: I told women I will be their protector. They said, ‘Sir, please don’t say that.’ Well I'm going to do it whether the women like it or not https://t.co/LLWFa2NtQr",
+     "display_text_range": [
+      0,
+      144
+     ],
+     "facets": [
+      {
+       "type": "media",
+       "indices": [
+        145,
+        168
+       ],
+       "id": "1851779201113677824",
+       "display": "pic.x.com/LLWFa2NtQr",
+       "original": "https://t.co/LLWFa2NtQr",
+       "replacement": "https://x.com/KamalaHQ/status/1851779267106889824/video/1"
+      }
+     ]
+    },
+    "author": {
+     "screen_name": "HQNewsNow",
+     "url": "https://x.com/HQNewsNow",
+     "id": "3315264553",
+     "followers": 1158502,
+     "following": 19,
+     "likes": 184,
+     "media_count": 13126,
+     "name": "Headquarters",
+     "description": "News you can use.",
+     "raw_description": {
+      "text": "News you can use.",
+      "facets": []
+     },
+     "location": "",
+     "banner_url": "https://pbs.twimg.com/profile_banners/3315264553/1770298404",
+     "avatar_url": "https://pbs.twimg.com/profile_images/2019403777715974144/WztWhdNQ_200x200.jpg",
+     "joined": "Fri Aug 14 16:21:06 +0000 2015",
+     "protected": false,
+     "website": {
+      "url": "http://headquarters.news",
+      "display_url": "headquarters.news"
+     },
+     "verification": {
+      "verified": true,
+      "verified_at": null,
+      "type": "individual"
+     },
+     "avatar_color": null
+    },
+    "replies": 3867,
+    "retweets": 3860,
+    "likes": 22115,
+    "bookmarks": 1675,
+    "quotes": 2636,
+    "created_at": "Thu Oct 31 00:12:36 +0000 2024",
+    "created_timestamp": 1730333556,
+    "possibly_sensitive": false,
+    "views": 8857174,
+    "is_note_tweet": false,
+    "community_note": null,
+    "lang": "en",
+    "replying_to": null,
+    "replying_to_status": null,
+    "media": {
+     "all": [
+      {
+       "id": "1851779201113677824",
+       "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/1036x572/_Uryn9SkSNlChbDH.mp4?tag=14",
+       "thumbnail_url": "https://pbs.twimg.com/media/GbLXaQFXAAAXIHw.jpg",
+       "duration": 38.292,
+       "width": 1036,
+       "height": 572,
+       "format": "video/mp4",
+       "type": "video",
+       "formats": [
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/pl/NSfm2tyPF-1SiMUC.m3u8?tag=14&v=dc0",
+         "container": "m3u8"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/488x270/SD_exUDu7-cJK9hq.mp4?tag=14",
+         "bitrate": 288000,
+         "container": "mp4",
+         "codec": "h264"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/652x360/7VJrWut0d2r9tS62.mp4?tag=14",
+         "bitrate": 832000,
+         "container": "mp4",
+         "codec": "h264"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/1036x572/_Uryn9SkSNlChbDH.mp4?tag=14",
+         "bitrate": 2176000,
+         "container": "mp4",
+         "codec": "h264"
+        }
+       ],
+       "publisher": null,
+       "variants": [
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/pl/NSfm2tyPF-1SiMUC.m3u8?tag=14&v=dc0",
+         "bitrate": 0,
+         "content_type": "application/x-mpegURL"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/488x270/SD_exUDu7-cJK9hq.mp4?tag=14",
+         "bitrate": 288000,
+         "content_type": "video/mp4"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/652x360/7VJrWut0d2r9tS62.mp4?tag=14",
+         "bitrate": 832000,
+         "content_type": "video/mp4"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/1036x572/_Uryn9SkSNlChbDH.mp4?tag=14",
+         "bitrate": 2176000,
+         "content_type": "video/mp4"
+        }
+       ]
+      }
+     ],
+     "videos": [
+      {
+       "id": "1851779201113677824",
+       "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/1036x572/_Uryn9SkSNlChbDH.mp4?tag=14",
+       "thumbnail_url": "https://pbs.twimg.com/media/GbLXaQFXAAAXIHw.jpg",
+       "duration": 38.292,
+       "width": 1036,
+       "height": 572,
+       "format": "video/mp4",
+       "type": "video",
+       "formats": [
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/pl/NSfm2tyPF-1SiMUC.m3u8?tag=14&v=dc0",
+         "container": "m3u8"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/488x270/SD_exUDu7-cJK9hq.mp4?tag=14",
+         "bitrate": 288000,
+         "container": "mp4",
+         "codec": "h264"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/652x360/7VJrWut0d2r9tS62.mp4?tag=14",
+         "bitrate": 832000,
+         "container": "mp4",
+         "codec": "h264"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/1036x572/_Uryn9SkSNlChbDH.mp4?tag=14",
+         "bitrate": 2176000,
+         "container": "mp4",
+         "codec": "h264"
+        }
+       ],
+       "publisher": null,
+       "variants": [
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/pl/NSfm2tyPF-1SiMUC.m3u8?tag=14&v=dc0",
+         "bitrate": 0,
+         "content_type": "application/x-mpegURL"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/488x270/SD_exUDu7-cJK9hq.mp4?tag=14",
+         "bitrate": 288000,
+         "content_type": "video/mp4"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/652x360/7VJrWut0d2r9tS62.mp4?tag=14",
+         "bitrate": 832000,
+         "content_type": "video/mp4"
+        },
+        {
+         "url": "https://video.twimg.com/amplify_video/1851779201113677824/vid/avc1/1036x572/_Uryn9SkSNlChbDH.mp4?tag=14",
+         "bitrate": 2176000,
+         "content_type": "video/mp4"
+        }
+       ]
+      }
+     ]
+    },
+    "source": "Sprout Social",
+    "twitter_card": "player",
+    "color": null,
+    "provider": "twitter",
+    "reposted_by": null
+   },
+   "source": "Twitter Web App",
+   "color": null,
+   "provider": "twitter",
+   "reposted_by": null
+  }
+ },
+ "retrieved_at": "2026-09-29T09:13:34+00:00"
+}

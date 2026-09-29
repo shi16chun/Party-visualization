@@ -1,0 +1,66 @@
+{
+ "url": "https://www.tiktok.com/@teamtrump",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "7365161718782395438",
+  "shortId": "",
+  "uniqueId": "teamtrump",
+  "nickname": "Team Trump",
+  "avatarLarger": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/8463be03ffb30fbe79581a747ac280c0~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=d49cb471&x-expires=1790845200&x-signature=9P%2BAc31Kp%2BniK0TvzACxrCr4jXM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarMedium": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/8463be03ffb30fbe79581a747ac280c0~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=773d8779&x-expires=1790845200&x-signature=d6odE0%2BJxocjKJH4FaBOkAQ4jU4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/8463be03ffb30fbe79581a747ac280c0~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=e05b5567&x-expires=1790845200&x-signature=waJsRCwOHTAOuRoGX%2Bc6uHLjxQw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "signature": "The official TikTok page for the Trump Campaign",
+  "createTime": 1714835432,
+  "verified": true,
+  "secUid": "MS4wLjABAAAAIb0gpCf24bC1i5TWl87J5SjS0h7ZB59nfledznAyQ_DF7-vpgJJ8nYfzo98Ba3fp",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "bioLink": {
+   "link": "donaldjtrump.com",
+   "risk": 3
+  },
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 0,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 1,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1714835444,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 1,
+  "UserStoryStatus": 0,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 14200000,
+  "followingCount": 3,
+  "heart": 388400000,
+  "heartCount": 388400000,
+  "videoCount": 1308,
+  "diggCount": 0,
+  "friendCount": 2
+ },
+ "retrieved_at": "2026-09-29T09:17:13+00:00"
+}

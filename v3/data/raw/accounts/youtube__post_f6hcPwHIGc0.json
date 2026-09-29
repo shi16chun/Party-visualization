@@ -1,0 +1,16 @@
+{
+ "url": "https://www.youtube.com/watch?v=f6hcPwHIGc0",
+ "http_status": 0,
+ "info": {
+  "id": null,
+  "title": null,
+  "upload_date": null,
+  "duration": null,
+  "channel": null,
+  "channel_id": null,
+  "uploader_id": null,
+  "channel_follower_count": null,
+  "error": "ERROR: [youtube] f6hcPwHIGc0: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies"
+ },
+ "retrieved_at": "2026-09-29T09:14:08+00:00"
+}

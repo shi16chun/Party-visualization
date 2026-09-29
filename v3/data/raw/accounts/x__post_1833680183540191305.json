@@ -1,0 +1,114 @@
+{
+ "url": "https://api.fxtwitter.com/status/1833680183540191305",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "tweet": {
+   "url": "https://x.com/TheDemocrats/status/1833680183540191305",
+   "id": "1833680183540191305",
+   "text": "FACT: Donald Trump told Congressional Republicans to block the bipartisan border security and immigration bill.\n\nWhen @KamalaHarris is elected, she’ll bring the bill back and sign it into law.",
+   "raw_text": {
+    "text": "FACT: Donald Trump told Congressional Republicans to block the bipartisan border security and immigration bill.\n\nWhen @KamalaHarris is elected, she’ll bring the bill back and sign it into law. https://t.co/o13RZFnYzg",
+    "display_text_range": [
+     0,
+     192
+    ],
+    "facets": [
+     {
+      "type": "mention",
+      "indices": [
+       118,
+       131
+      ],
+      "original": "KamalaHarris",
+      "id": "30354991"
+     },
+     {
+      "type": "media",
+      "indices": [
+       193,
+       216
+      ],
+      "id": "1833679380314275840",
+      "display": "pic.x.com/o13RZFnYzg",
+      "original": "https://t.co/o13RZFnYzg",
+      "replacement": "https://x.com/TheDemocrats/status/1833680183540191305/photo/1"
+     }
+    ]
+   },
+   "author": {
+    "screen_name": "TheDemocrats",
+    "url": "https://x.com/TheDemocrats",
+    "id": "14377605",
+    "followers": 2418166,
+    "following": 87,
+    "likes": 1331,
+    "media_count": 16000,
+    "name": "Democrats",
+    "description": "We’re fighting for a better, fairer, and brighter future for every American.\nChair: @kenmartin73",
+    "raw_description": {
+     "text": "We’re fighting for a better, fairer, and brighter future for every American.\nChair: @kenmartin73",
+     "facets": []
+    },
+    "location": "United States",
+    "banner_url": "https://pbs.twimg.com/profile_banners/14377605/1741795284",
+    "avatar_url": "https://pbs.twimg.com/profile_images/1899853234631536640/5olRwkVt_200x200.jpg",
+    "joined": "Sun Apr 13 20:23:13 +0000 2008",
+    "protected": false,
+    "website": {
+     "url": "https://democrats.org",
+     "display_url": "democrats.org"
+    },
+    "verification": {
+     "verified": true,
+     "verified_at": null,
+     "type": "individual"
+    },
+    "avatar_color": null
+   },
+   "replies": 49,
+   "retweets": 85,
+   "likes": 189,
+   "bookmarks": 4,
+   "quotes": 4,
+   "created_at": "Wed Sep 11 01:33:18 +0000 2024",
+   "created_timestamp": 1726018398,
+   "possibly_sensitive": false,
+   "views": 27903,
+   "is_note_tweet": false,
+   "community_note": null,
+   "lang": "en",
+   "replying_to": null,
+   "replying_to_status": null,
+   "media": {
+    "all": [
+     {
+      "type": "photo",
+      "id": "1833679380314275840",
+      "url": "https://pbs.twimg.com/media/GXKJrl-XQAAmC1r.jpg?name=orig",
+      "width": 1080,
+      "height": 1080,
+      "altText": "An image of Doanld Trump, Marjorie Taylor Greene, and Matt Gatez over the following text: \"Reminder: MAGA minions fell in line after Trump directed House Republicans to tank the bipartisan border deal.\""
+     }
+    ],
+    "photos": [
+     {
+      "type": "photo",
+      "id": "1833679380314275840",
+      "url": "https://pbs.twimg.com/media/GXKJrl-XQAAmC1r.jpg?name=orig",
+      "width": 1080,
+      "height": 1080,
+      "altText": "An image of Doanld Trump, Marjorie Taylor Greene, and Matt Gatez over the following text: \"Reminder: MAGA minions fell in line after Trump directed House Republicans to tank the bipartisan border deal.\""
+     }
+    ]
+   },
+   "source": "Twitter Web App",
+   "twitter_card": "summary_large_image",
+   "color": null,
+   "provider": "twitter",
+   "reposted_by": null
+  }
+ },
+ "retrieved_at": "2026-09-29T09:13:29+00:00"
+}

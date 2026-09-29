@@ -1,0 +1,39 @@
+{
+ "url": "https://api.fxtwitter.com/KamalaHarris",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "KamalaHarris",
+   "url": "https://x.com/KamalaHarris",
+   "id": "30354991",
+   "followers": 20979744,
+   "following": 699,
+   "likes": 355,
+   "media_count": 5086,
+   "tweets": 20324,
+   "name": "Kamala Harris",
+   "description": "Always fighting for the people. Wife, Momala, Auntie. She/her. 107 Days available now.",
+   "raw_description": {
+    "text": "Always fighting for the people. Wife, Momala, Auntie. She/her. 107 Days available now.",
+    "facets": []
+   },
+   "location": "Washington, DC",
+   "banner_url": "https://pbs.twimg.com/profile_banners/30354991/1736795995",
+   "avatar_url": "https://pbs.twimg.com/profile_images/1592241313700782081/T2pTYU8d_normal.jpg",
+   "joined": "Sat Apr 11 00:42:07 +0000 2009",
+   "protected": false,
+   "website": {
+    "url": "http://kamalaharris.link/107Days",
+    "display_url": "kamalaharris.link/107Days"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "individual"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:39+00:00"
+}

@@ -1,0 +1,15 @@
+{
+ "url": "https://www.youtube.com/@headquarters/about",
+ "http_status": 200,
+ "extracted": {
+  "joined": "Jan 12, 2024",
+  "subscribers_text": "1.46K subscribers",
+  "video_count_text": "238 videos",
+  "canonical_url": "http://www.youtube.com/@Headquarters",
+  "channel_id": "UCnniIiQ9zAOjTcnct0xccig",
+  "title": "Headquarters",
+  "verified_badge": false
+ },
+ "raw_excerpt": null,
+ "retrieved_at": "2026-09-29T09:11:34+00:00"
+}

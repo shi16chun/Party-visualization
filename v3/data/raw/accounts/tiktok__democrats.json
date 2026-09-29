@@ -1,0 +1,62 @@
+{
+ "url": "https://www.tiktok.com/@democrats",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "7044304201086321670",
+  "shortId": "",
+  "uniqueId": "democrats",
+  "nickname": "Democrats",
+  "avatarLarger": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/1b5655b11d271a9989bd35748e20d6d2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=ca7801cf&x-expires=1790845200&x-signature=RoTLJrlESlR39mD%2FPDYx0UVa45g%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarMedium": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/1b5655b11d271a9989bd35748e20d6d2~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=399a5afa&x-expires=1790845200&x-signature=pGuvCPUgDHtFe4g2sJrEOCPlL%2Fc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=5d71bf1b&idc=useast5",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/1b5655b11d271a9989bd35748e20d6d2~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=d68906e5&x-expires=1790845200&x-signature=RfCWuUWwksXzyaPgxHJ47nE4Tc8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=5d71bf1b&idc=useast5",
+  "signature": "The official TikTok account of the Democratic Party.",
+  "createTime": 1640130176,
+  "verified": true,
+  "secUid": "MS4wLjABAAAAC6mUqV2thNckb5tPS7PkbZlv-7cHkADKBZ5Gk--0rsdOsmDEUX42aGzZU5I9c3Y9",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 0,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 2,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1741795262,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 1,
+  "UserStoryStatus": 0,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 6000000,
+  "followingCount": 60,
+  "heart": 478300000,
+  "heartCount": 478300000,
+  "videoCount": 3151,
+  "diggCount": 0,
+  "friendCount": 31
+ },
+ "retrieved_at": "2026-09-29T09:16:54+00:00"
+}

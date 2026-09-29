@@ -1,0 +1,15 @@
+{
+ "url": "https://www.youtube.com/channel/UC0XBsJpPhOLg0k4x9ZwrWzw/about",
+ "http_status": 200,
+ "extracted": {
+  "joined": "Aug 18, 2008",
+  "subscribers_text": "855K subscribers",
+  "video_count_text": "817 videos",
+  "canonical_url": "http://www.youtube.com/@kamalaharris",
+  "channel_id": "UC0XBsJpPhOLg0k4x9ZwrWzw",
+  "title": "Kamala Harris",
+  "verified_badge": true
+ },
+ "raw_excerpt": null,
+ "retrieved_at": "2026-09-29T09:11:00+00:00"
+}

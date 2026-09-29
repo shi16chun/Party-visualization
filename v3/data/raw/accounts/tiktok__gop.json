@@ -1,0 +1,62 @@
+{
+ "url": "https://www.tiktok.com/@gop",
+ "http_status": 200,
+ "statusCode": 0,
+ "user": {
+  "id": "7418169760637371435",
+  "shortId": "",
+  "uniqueId": "gop",
+  "nickname": "GOP",
+  "avatarLarger": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/8bb966a2c493ae3c435dde148b088fa7~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=9640&refresh_token=9b234f8d&x-expires=1790845200&x-signature=5ImMaov95NIZXE9cUdTrRAvH4mo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarMedium": "https://p19-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/8bb966a2c493ae3c435dde148b088fa7~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=5b96b66e&x-expires=1790845200&x-signature=LFm0UB5g4Bwk%2FwuiBrWYARE1DIQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "avatarThumb": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/8bb966a2c493ae3c435dde148b088fa7~tplv-tiktokx-cropcenter:100:100.jpeg?dr=9640&refresh_token=4e2addfe&x-expires=1790845200&x-signature=pH%2BqSuqJ4xbYQ6lyaobb%2FD7%2FShg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
+  "signature": "Make America Great Again",
+  "createTime": 1767821244,
+  "verified": true,
+  "secUid": "MS4wLjABAAAA_PT1E22fCeJ3D78SZlJeRX-Gps0Mge_HjWORFuJye56Cp2iWo5OpTrjO2JN1dSQ9",
+  "ftc": false,
+  "relation": 0,
+  "openFavorite": false,
+  "commentSetting": 0,
+  "commerceUserInfo": {
+   "commerceUser": false
+  },
+  "duetSetting": 0,
+  "stitchSetting": 0,
+  "privateAccount": false,
+  "secret": false,
+  "isADVirtual": false,
+  "roomId": "",
+  "uniqueIdModifyTime": 0,
+  "ttSeller": false,
+  "downloadSetting": 0,
+  "profileTab": {
+   "showMusicTab": false,
+   "showQuestionTab": false,
+   "showPlayListTab": false
+  },
+  "followingVisibility": 1,
+  "recommendReason": "",
+  "nowInvitationCardUrl": "",
+  "nickNameModifyTime": 1767821292,
+  "isEmbedBanned": false,
+  "canExpPlaylist": true,
+  "profileEmbedPermission": 1,
+  "language": "en",
+  "eventList": [],
+  "suggestAccountBind": false,
+  "isOrganization": 1,
+  "UserStoryStatus": 0,
+  "shortDramaCreator": {}
+ },
+ "stats": {
+  "followerCount": 364,
+  "followingCount": 0,
+  "heart": 0,
+  "heartCount": 0,
+  "videoCount": 0,
+  "diggCount": 0,
+  "friendCount": 0
+ },
+ "retrieved_at": "2026-09-29T09:16:58+00:00"
+}

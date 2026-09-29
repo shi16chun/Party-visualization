@@ -1,0 +1,7 @@
+{
+ "url": "https://truthsocial.com/api/v1/accounts/lookup?acct=RNC",
+ "http_status": 403,
+ "blocked_by_cloudflare": true,
+ "response": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scal",
+ "retrieved_at": "2026-09-29T09:13:18+00:00"
+}

@@ -1,0 +1,49 @@
+{
+ "url": "https://api.fxtwitter.com/DNC",
+ "http_status": 200,
+ "response": {
+  "code": 200,
+  "message": "OK",
+  "user": {
+   "screen_name": "DNC",
+   "url": "https://x.com/DNC",
+   "id": "722793491059769344",
+   "followers": 139862,
+   "following": 1,
+   "likes": 181,
+   "media_count": 0,
+   "tweets": 9,
+   "name": "Democratic Party",
+   "description": "We are fighting for a better, fairer, and brighter future for every American over at @TheDemocrats.",
+   "raw_description": {
+    "text": "We are fighting for a better, fairer, and brighter future for every American over at @TheDemocrats.",
+    "facets": [
+     {
+      "type": "mention",
+      "indices": [
+       85,
+       98
+      ],
+      "original": "TheDemocrats",
+      "id": ""
+     }
+    ]
+   },
+   "location": "Washington, DC",
+   "banner_url": "https://pbs.twimg.com/profile_banners/722793491059769344/1632773762",
+   "avatar_url": "https://pbs.twimg.com/profile_images/1441456443362709509/GU61IyR__normal.png",
+   "joined": "Wed Apr 20 14:26:12 +0000 2016",
+   "protected": false,
+   "website": {
+    "url": "http://democrats.org",
+    "display_url": "democrats.org"
+   },
+   "verification": {
+    "verified": true,
+    "verified_at": null,
+    "type": "individual"
+   }
+  }
+ },
+ "retrieved_at": "2026-09-29T09:12:06+00:00"
+}
