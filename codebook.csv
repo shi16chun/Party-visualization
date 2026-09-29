@@ -1,0 +1,29 @@
+variable,level,type,codes_or_rule,notes
+video_id,video,string,YouTube public video ID,去重键
+upload_date,video,date,YYYY-MM-DD,以美国平台页面公布日期为准
+party,account,categorical,Democratic;Republican,阵营
+actor_type,account,categorical,party;candidate,账号组织层级
+account_slug,account,categorical,dnc;rnc;harris;trump,稳定账号标识
+platform_bucket,video,categorical,shorts_tab,最终样本仅含抓取时位于频道Shorts页的视频
+duration_seconds,video,numeric,0-180,最终样本实际范围4-161秒
+opponent_reference,title_signal,binary,固定词典匹配,标题出现对方候选人或政党指涉词
+attack_signal,title_signal,binary,固定词典匹配,标题出现fraud/worst/fail/lie/radical/refuse等否定性词汇；不等同完整语义攻击编码
+own_reference,title_signal,binary,固定词典匹配,标题出现本方候选人或政党指涉词
+mobilization_signal,title_signal,binary,固定词典匹配,标题出现vote/register/plan to vote/join/donate等动员词
+policy_signal,title_signal,binary,固定词典匹配,标题出现economy/border/tax/abortion/health等政策词
+personal_signal,title_signal,binary,固定词典匹配,标题出现family/baby/grandpa/sweet treat等私人或日常词
+endorsement_signal,title_signal,binary,固定词典匹配,标题出现endorse/support等背书线索
+humor_signal,title_signal,binary,固定词典匹配,标题出现funny/joke/lol/meme等幽默词；保守测量
+first_person_signal,title_signal,binary,固定词典匹配,标题出现I/we/my/our/us等第一人称代词
+view_count,engagement,numeric,non-negative integer,抓取日累计观看数
+like_count,engagement,numeric,non-negative integer or missing,抓取日累计点赞数
+comment_count,engagement,numeric,non-negative integer or missing,抓取日累计评论数
+like_rate,engagement,numeric,like_count/view_count,仅作平台内可见互动强度
+comment_rate,engagement,numeric,comment_count/view_count,仅作平台内可见互动强度
+retrieved_at_utc,provenance,datetime,ISO 8601 UTC,所有累计指标必须保留抓取时间
+style_all_caps,title_style,binary,字母中大写占比>=0.8,标题形式风格指标；存于youtube_shorts_coded_extended.csv
+style_exclamation,title_style,binary,标题含感叹号,同上
+style_question,title_style,binary,标题含问号,同上
+style_quote,title_style,binary,标题含引号,同上
+style_word_count,title_style,numeric,按空白切分的词数,同上
+caps_share,title_style,numeric,0-1；字母不足3个记缺失,大写字母占比；存于youtube_shorts_coded_extended.csv

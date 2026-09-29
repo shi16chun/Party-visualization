@@ -1,0 +1,28 @@
+{
+  "rows": 363,
+  "accounts": {
+    "dnc": 11,
+    "harris": 156,
+    "rnc": 163,
+    "trump": 33
+  },
+  "retrieval_time_min": "2026-08-24T15:48:05+00:00",
+  "retrieval_time_max": "2026-08-24T15:53:05+00:00",
+  "missing_comment_count": 1,
+  "view_model": {
+    "outcome": "log_views",
+    "n": 363,
+    "r_squared": 0.8436307330015059,
+    "adjusted_r_squared": 0.8391884242799579,
+    "f_pvalue": 2.8735744360450808e-136,
+    "formula": "log_views ~ C(party) * C(actor_type) + opponent_reference + mobilization_signal + policy_signal + personal_signal + endorsement_signal + duration_seconds + day_index"
+  },
+  "like_rate_model": {
+    "outcome": "logit_like_rate",
+    "n": 363,
+    "r_squared": 0.17530747434278715,
+    "adjusted_r_squared": 0.15187870940934367,
+    "f_pvalue": 4.970891384803424e-13,
+    "formula": "logit_like_rate ~ C(party) * C(actor_type) + opponent_reference + mobilization_signal + policy_signal + personal_signal + endorsement_signal + duration_seconds + day_index"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "seed": 20260825,
+  "n_boot": 5000,
+  "n_perm": 20000,
+  "production_structure_fisher_p": 3.08561263957393e-54,
+  "production_structure_or": 68.64475101124987,
+  "view_models_meta": {
+    "nb_alpha": 1.132282996427166,
+    "nb_alpha_se": 0.08433791482344262,
+    "nb_alpha_ci_low": 0.9669806833732184,
+    "nb_alpha_ci_high": 1.2975853094811134,
+    "nb_llf": -4274.053494554997,
+    "poisson_llf": -57553210.538915046,
+    "nb_converged": true,
+    "n": 363,
+    "ols_r2": 0.8436307330015059,
+    "ols_adj_r2": 0.8391884242799579,
+    "qreg_pseudo_r2": 0.6471355868745904,
+    "interaction_term": "C(party)[T.Republican]:C(actor_type)[T.party]"
+  }
+}

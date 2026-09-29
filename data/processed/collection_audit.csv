@@ -1,0 +1,5 @@
+﻿account_slug,account_name,party,actor_type,flat_index_size,retrieved_slice_start_1based,retrieved_slice_end_1based,retrieved_watch_pages,in_window_items,retrieval_errors,missing_like_count,missing_comment_count,boundary_mode,probe_count
+dnc,The Democrats,Democratic,party,939,729,799,71,11,0,0,0,binary_window_with_padding,16
+rnc,GOP,Republican,party,801,22,244,223,163,0,0,1,binary_window_with_padding,18
+harris,Kamala Harris,Democratic,candidate,207,1,207,207,156,0,0,0,binary_window_with_padding,13
+trump,Donald J Trump,Republican,candidate,42,1,42,42,33,0,0,0,binary_window_with_padding,11
