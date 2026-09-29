@@ -1,0 +1,5 @@
+# v3 修订：视频文件不入库
+v3/data/media/
+# Python 缓存
+__pycache__/
+*.pyc
