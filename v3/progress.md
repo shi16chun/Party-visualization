@@ -67,3 +67,9 @@
 - 脚本 `v3/scripts/a2_collect_tiktok.py` 分list、detail、build三步；list步骤交作者本地运行，说明见 `v3/local_run_guide.md`。
 - 关键参数：窗口与A1一致（美国东部时间）；模拟iPhone 13浏览；下滑至早于窗口起点一天即停。
 - 未解决问题：等待本地list结果；TikTok公开页的播放、点赞、评论、分享为4位有效数字近似值；TikTok研究接口是否申请待作者决定。
+
+## A3 X采集：可行性测试（2026-10-03，未完成）
+
+- 免费路线测试结果见 `v3/data/audit/a3_feasibility.md`：USC公开数据集对本研究7个账号的覆盖率上限为2.4%至57.8%，且不含转发，不能作全量来源，可作交叉核对与2024年互动数的补充。
+- 脚本：`v3/scripts/a3_usc24_filter.py`、`v3/scripts/a3_usc24_coverage.py`；输出：`v3/data/raw/x/usc24_matches.csv.gz`、`v3/data/audit/x_usc24_chunks.csv`、`v3/data/audit/x_usc24_coverage.csv`。
+- 未解决问题：X全量采集路线（付费接口或本地登录检索）待作者决定。

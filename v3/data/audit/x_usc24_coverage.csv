@@ -1,0 +1,8 @@
+handle_2024,node,rows_with_duplicates,unique_posts_all,unique_posts_window,window_original,window_quote,window_reply,window_retweet,window_days_with_posts,statuses_min,statuses_max,statuses_delta_lower_bound,coverage_upper_bound
+thedemocrats,DNC,442,294,205,201,4,0,0,48,45185,47790,2605,0.113
+realdonaldtrump,Donald J. Trump,2537,218,201,195,6,0,0,51,59358,59735,377,0.578
+kamalahq,Kamala HQ,512,290,290,286,4,0,0,72,8712,10276,1564,0.185
+kamalaharris,Kamala Harris,1740,325,313,294,13,6,0,59,19388,20127,739,0.44
+gop,RNC,1075,571,550,532,16,2,0,59,61853,65272,3419,0.167
+teamtrump,Team Trump,75,49,48,45,1,2,0,26,44431,46488,2057,0.024
+trumpwarroom,Trump War Room,939,659,637,611,16,10,0,65,49088,56040,6952,0.095
