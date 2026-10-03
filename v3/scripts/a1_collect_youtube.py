@@ -135,9 +135,12 @@ def step_index(channels: list[dict]) -> None:
                              "errors": 0, "detail": url, "retrieved_at": started})
             except Exception as exc:  # 该页面不存在（如无直播）或请求失败，均如实记录
                 msg = str(exc).splitlines()[0][:300]
+                no_tab = "does not have a" in msg  # 频道本无此页面，不计为抓取失败
                 write_jsonl(RAW / f"{ch['slug']}__index_{tab}.jsonl", [])
                 logs.append({"slug": ch["slug"], "step": "index", "target": tab, "items": 0,
-                             "errors": 1, "detail": f"{url} :: {msg}", "retrieved_at": started})
+                             "errors": 0 if no_tab else 1,
+                             "detail": f"{url} :: {'无此页面' if no_tab else '抓取失败'} :: {msg}",
+                             "retrieved_at": started})
             print(ch["slug"], tab, logs[-1]["items"], logs[-1]["detail"][-120:])
             time.sleep(PAUSE)
         append_log(logs)
