@@ -1,0 +1,10 @@
+slug,step,target,items,errors,detail,retrieved_at
+dnc,index,videos,187,0,https://www.youtube.com/channel/UClkO4MArT2WKWj32YDD_-Ew/videos,2026-10-03T08:39:36+00:00
+dnc,index,shorts,1087,0,https://www.youtube.com/channel/UClkO4MArT2WKWj32YDD_-Ew/shorts,2026-10-03T08:39:42+00:00
+dnc,index,streams,373,0,https://www.youtube.com/channel/UClkO4MArT2WKWj32YDD_-Ew/streams,2026-10-03T08:40:07+00:00
+kamalahq,index,videos,25,0,https://www.youtube.com/channel/UCnniIiQ9zAOjTcnct0xccig/videos,2026-10-03T08:40:19+00:00
+kamalahq,index,shorts,213,0,https://www.youtube.com/channel/UCnniIiQ9zAOjTcnct0xccig/shorts,2026-10-03T08:40:20+00:00
+kamalahq,index,streams,0,1,https://www.youtube.com/channel/UCnniIiQ9zAOjTcnct0xccig/streams :: ERROR: [youtube:tab] UCnniIiQ9zAOjTcnct0xccig: This channel does not have a streams tab,2026-10-03T08:40:25+00:00
+harris,index,videos,385,0,https://www.youtube.com/channel/UC0XBsJpPhOLg0k4x9ZwrWzw/videos,2026-10-03T08:40:27+00:00
+harris,index,shorts,213,0,https://www.youtube.com/channel/UC0XBsJpPhOLg0k4x9ZwrWzw/shorts,2026-10-03T08:40:38+00:00
+harris,index,streams,219,0,https://www.youtube.com/channel/UC0XBsJpPhOLg0k4x9ZwrWzw/streams,2026-10-03T08:40:44+00:00
