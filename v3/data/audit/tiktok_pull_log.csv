@@ -1,0 +1,4 @@
+handle,step,items,in_window,errors,detail,retrieved_at
+kamalaharris,list,0,0,1,pages=1 blocked_pages=1 wrong_author=0 oldest=None,2026-10-03T10:17:25+00:00
+kamalaharris,detail,2,,0,2 ids requested,2026-10-03T10:19:22+00:00
+realdonaldtrump,list,0,0,1,pages=1 blocked_pages=1 wrong_author=0 oldest=None,2026-10-03T10:20:05+00:00

@@ -3,3 +3,5 @@ v3/data/media/
 # Python 缓存
 __pycache__/
 *.pyc
+# 本地浏览器登录状态，不入库
+tiktok_profile/

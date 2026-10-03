@@ -60,3 +60,10 @@
 - 结果：窗口期1066条，其中普通视频387、Shorts 389、直播回放289、预约未开播1。旧稿363条全部仍在线、全部在窗口内。Team Trump与Trump War Room的YouTube频道窗口期均无发布。
 - 环境：本环境的YouTube视频页与player接口仍要求登录验证，改用官方API后不受影响。
 - 未解决问题：直播回放约397小时，是否纳入B、C阶段的内容处理，需在B1前决定；指标为2026-10-03累计值，同期值待A5。
+
+## A2 TikTok采集（进行中，2026-10-03）
+
+- 试拉结果见 `v3/data/audit/a2_trial.md`：本环境中单条视频页可读，账号视频列表被TikTok拦截。
+- 脚本 `v3/scripts/a2_collect_tiktok.py` 分list、detail、build三步；list步骤交作者本地运行，说明见 `v3/local_run_guide.md`。
+- 关键参数：窗口与A1一致（美国东部时间）；模拟iPhone 13浏览；下滑至早于窗口起点一天即停。
+- 未解决问题：等待本地list结果；TikTok公开页的播放、点赞、评论、分享为4位有效数字近似值；TikTok研究接口是否申请待作者决定。
