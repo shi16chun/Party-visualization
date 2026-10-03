@@ -1,0 +1,5 @@
+chunk,rows,date_min,date_max,hits,status,hit_thedemocrats,hit_gop,hit_kamalahq,hit_kamalaharris,hit_teamtrump,hit_trumpwarroom,hit_realdonaldtrump
+part_1/may_july_chunk_1.csv.gz,50000,2024-06-12,2024-06-12,0,ok,0,0,0,0,0,0,0
+part_1/may_july_chunk_2.csv.gz,50000,2024-06-12,2024-06-12,0,ok,0,0,0,0,0,0,0
+part_1/may_july_chunk_3.csv.gz,50000,2024-06-12,2024-06-12,0,ok,0,0,0,0,0,0,0
+part_1/may_july_chunk_4.csv.gz,50000,2024-06-12,2024-06-12,0,ok,0,0,0,0,0,0,0
