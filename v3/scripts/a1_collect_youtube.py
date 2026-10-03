@@ -273,6 +273,8 @@ def step_build(channels: list[dict]) -> None:
                 "date_et": pub.astimezone(ET).date().isoformat(),
                 "tab": tab_of.get(rec["id"], "not_in_index"),
                 "is_live_broadcast": bool(live),
+                # none=普通或已结束直播；upcoming=预约后从未开播（无内容）
+                "broadcast_content": sn.get("liveBroadcastContent"),
                 "duration": iso_duration_seconds(cd.get("duration")),
                 "title": sn.get("title"), "description": sn.get("description"),
                 "views_now": st.get("viewCount"), "likes_now": st.get("likeCount"),
@@ -284,7 +286,7 @@ def step_build(channels: list[dict]) -> None:
         write_jsonl(RAW / f"{ch['slug']}.jsonl", node_rows)
         out_rows.extend(r for r in node_rows if not r.get("error"))
     fields = ["node", "camp", "role", "platform", "slug", "channel_id", "post_id", "published_at_utc", "date_et",
-              "tab", "is_live_broadcast", "duration", "title", "description", "views_now", "likes_now",
+              "tab", "is_live_broadcast", "broadcast_content", "duration", "title", "description", "views_now", "likes_now",
               "comments_now", "privacy_status", "url", "retrieved_at"]
     PROCESSED.mkdir(parents=True, exist_ok=True)
     with (PROCESSED / "youtube_window.csv").open("w", newline="", encoding="utf-8") as fh:

@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | P0 准备 | 2026-09-29 | v3/REVISION_PLAN.md；v3/progress.md；v3/manuscript_v1_submitted.md；v3/manuscript_v1_media/；v3/v1_fix_checklist.md | 见下方P0条目 |
 | A0 | 2026-09-29（同日按决策1—4修订） | v3/data/accounts.csv；v3/decisions.md；v3/data/audit/a0_probe.csv；v3/data/audit/a0_evidence.md；v3/data/raw/accounts/；v3/scripts/a0_probe_accounts.py；v3/scripts/a0_build_accounts.py | 见下方A0条目 |
-| A1 |  |  |  |
+| A1 | 2026-10-03 | v3/data/processed/youtube_window.csv；v3/data/raw/youtube/；v3/data/audit/youtube_vs_v1.csv；v3/data/audit/youtube_pull_log.csv；v3/data/audit/a1_summary.md；v3/scripts/a1_collect_youtube.py | 见下方A1条目 |
 
 ## P0 准备（2026-09-29）
 
@@ -52,3 +52,11 @@
 - `v3/scripts/a0_probe_accounts.py` 增加 --keys 选项，补测Trump War Room的3个账号与2条帖子，结果并入 a0_probe.csv。
 - 外审意见原文存为 `v3/review_comments.md`，供F3使用。
 - 未解决问题：Trump War Room的YouTube频道窗口期发布待A1核实；其余同A0条目。
+
+## A1 YouTube全量采集（2026-10-03）
+
+- 输出：`v3/data/processed/youtube_window.csv`（1066条）；`v3/data/raw/youtube/`（频道页面索引、上传列表、逐条API返回、合并后逐条记录）；`v3/data/audit/youtube_vs_v1.csv`；`v3/data/audit/youtube_pull_log.csv`；`v3/data/audit/a1_summary.md`。
+- 关键参数：窗口按美国东部时间计（2024-07-21 00:00至2024-11-05 23:59:59）；元数据取自YouTube Data API v3，密钥由环境代理附加；页面归属取自频道平面索引；请求间隔0.5秒。
+- 结果：窗口期1066条，其中普通视频387、Shorts 389、直播回放289、预约未开播1。旧稿363条全部仍在线、全部在窗口内。Team Trump与Trump War Room的YouTube频道窗口期均无发布。
+- 环境：本环境的YouTube视频页与player接口仍要求登录验证，改用官方API后不受影响。
+- 未解决问题：直播回放约397小时，是否纳入B、C阶段的内容处理，需在B1前决定；指标为2026-10-03累计值，同期值待A5。
